@@ -1,0 +1,1322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:Description
+		 xmlns:ns1="http://purl.org/dc/elements/1.1/"
+		 xmlns:ns2="http://purl.org/pav/"
+		 xmlns:ns3="http://rdfs.org/ns/void#"
+		 xmlns:ns4="http://www.ksl.stanford.edu/projects/DAML/ksl-daml-desc.daml#"
+		 xmlns:ns5="http://www.w3.org/ns/dcat#"
+		 xmlns:ns6="http://xmlns.com/foaf/0.1/"
+		 rdf:about="http://zenodo.org/record/161719/files/RNAME_Accessor_Metarecords.rdf#6d16e982-0ab9-11e6-b512-3e1d05defe78">
+	<ns1:creator rdf:resource="http://wilkinsonlab.info/"/>
+	
+	<ns1:issued>2016-03-30</ns1:issued>
+	<ns5:modified>2016-03-30</ns5:modified>
+	
+	<ns1:language rdf:resource="http://lexvo.org/id/iso639-3/eng"/>
+	<ns1:license rdf:resource="http://purl.org/NET/rdflicense/cc-by3.0us"/>
+	
+	<ns1:title>"RNA polymerase III subunits"</ns1:title>
+	<ns2:authoredBy rdf:resource="http://orcid.org/0000-0002-6019-7306"/>
+	<ns2:authoredBy rdf:resource="http://orcid.org/0000-0002-2434-0240"/>
+	<ns3:inDataset rdf:resource="http://dx.doi.org/10.5281/zenodo.161719"/>
+	<ns4:has-Principle-Investigator>Dr. Mark Wilkinson</ns4:has-Principle-Investigator>
+	<ns4:has-Technical-Lead>Alejandro Rodriguez Iglesias</ns4:has-Technical-Lead>
+	<ns5:contactPoint rdf:resource="http://biordf.org/DataFairPort/MiscRDF/Wilkinson.rdf"/>
+	<ns5:description>Complexes involved in RNA Metabolism in fungi.  Dataset includes the complexes, their consituent proteins, the orthologues of those proteins in a range of fungal species, and the domain composition of those proteins</ns5:description>
+	
+	<ns5:distribution rdf:resource="http://zenodo.org/record/161719/files/Fungal_Orthology_and_Protein_Domains.rdf"/>
+	<ns5:distribution rdf:resource="https://zenodo.org/record/47641/files/final.RNA_polymerase_III_subunits.png"/>
+
+	<ns5:identifier rdf:resource="http://zenodo.org/record/161719/files/Fungal_Orthology_and_Protein_Domains.n3#6d16e982-0ab9-11e6-b512-3e1d05defe78"/>
+	
+	<ns5:keyword>FAIR Data</ns5:keyword>
+	<ns5:keyword>RNA Metabolism</ns5:keyword>
+	<ns5:keyword>Evolution</ns5:keyword>
+	<ns5:keyword>Protein domains</ns5:keyword>
+	
+	<ns5:landingPage rdf:resource="http://www.wilkinsonlab.info/lab/node/27"/>
+	
+	<ns5:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/en"/>
+	<ns5:publisher rdf:resource="http://wilkinsonlab.info"/>
+	<ns5:publisher>Wilkinson Laboratory of Biological Informatics, UPM</ns5:publisher>
+	<ns6:page rdf:resource="http://dx.doi.org/10.5281/zenodo.161719"/>
+</rdf:Description>
+
+
+<rdf:Description xmlns:ns1="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://www.w3.org/ns/dcat#" rdf:about="https://zenodo.org/record/47641/files/final.RNA_polymerase_III_subunits.png">
+	<ns1:format>image/png</ns1:format>
+	<rdf:type rdf:resource="http://purl.org/dc/dcmitype/Dataset"/>
+	<rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+	<ns2:downloadURL rdf:resource="https://zenodo.org/record/47641/files/final.RNA_polymerase_III_subunits.png"/>
+</rdf:Description>
+<rdf:Description xmlns:ns1="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://www.w3.org/ns/dcat#" rdf:about="http://zenodo.org/record/161719/files/Fungal_Orthology_and_Protein_Domains.rdf">
+	<ns1:format>application/rdf+xml</ns1:format>
+	<rdf:type rdf:resource="http://purl.org/dc/dcmitype/Dataset"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+	<ns2:downloadURL rdf:resource="http://zenodo.org/record/161719/files/Fungal_Orthology_and_Protein_Domains.rdf"/>
+</rdf:Description>
+
+
+
+<rdf:Description
+		 xmlns:ns1="http://purl.org/dc/elements/1.1/"
+		 xmlns:ns2="http://purl.org/pav/"
+		 xmlns:ns3="http://rdfs.org/ns/void#"
+		 xmlns:ns4="http://www.ksl.stanford.edu/projects/DAML/ksl-daml-desc.daml#"
+		 xmlns:ns5="http://www.w3.org/ns/dcat#"
+		 xmlns:ns6="http://xmlns.com/foaf/0.1/"
+		 rdf:about="http://zenodo.org/record/161719/files/RNAME_Accessor_Metarecords.rdf#6d16fc10-0ab9-11e6-b512-3e1d05defe78">
+	<ns1:creator rdf:resource="http://wilkinsonlab.info/"/>
+	
+	<ns1:issued>2016-03-30</ns1:issued>
+	<ns5:modified>2016-03-30</ns5:modified>
+	
+	<ns1:language rdf:resource="http://lexvo.org/id/iso639-3/eng"/>
+	<ns1:license rdf:resource="http://purl.org/NET/rdflicense/cc-by3.0us"/>
+	
+	<ns1:title>"SWR1 complex"</ns1:title>
+	<ns2:authoredBy rdf:resource="http://orcid.org/0000-0002-6019-7306"/>
+	<ns2:authoredBy rdf:resource="http://orcid.org/0000-0002-2434-0240"/>
+	<ns3:inDataset rdf:resource="http://dx.doi.org/10.5281/zenodo.161719"/>
+	<ns4:has-Principle-Investigator>Dr. Mark Wilkinson</ns4:has-Principle-Investigator>
+	<ns4:has-Technical-Lead>Alejandro Rodriguez Iglesias</ns4:has-Technical-Lead>
+	<ns5:contactPoint rdf:resource="http://biordf.org/DataFairPort/MiscRDF/Wilkinson.rdf"/>
+	<ns5:description>Complexes involved in RNA Metabolism in fungi.  Dataset includes the complexes, their consituent proteins, the orthologues of those proteins in a range of fungal species, and the domain composition of those proteins</ns5:description>
+	
+	<ns5:distribution rdf:resource="http://zenodo.org/record/161719/files/Fungal_Orthology_and_Protein_Domains.rdf"/>
+	<ns5:distribution rdf:resource="https://zenodo.org/record/47641/files/final.SWR1_complex.png"/>
+
+	<ns5:identifier rdf:resource="http://zenodo.org/record/161719/files/Fungal_Orthology_and_Protein_Domains.n3#6d16fc10-0ab9-11e6-b512-3e1d05defe78"/>
+	
+	<ns5:keyword>FAIR Data</ns5:keyword>
+	<ns5:keyword>RNA Metabolism</ns5:keyword>
+	<ns5:keyword>Evolution</ns5:keyword>
+	<ns5:keyword>Protein domains</ns5:keyword>
+	
+	<ns5:landingPage rdf:resource="http://www.wilkinsonlab.info/lab/node/27"/>
+	
+	<ns5:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/en"/>
+	<ns5:publisher rdf:resource="http://wilkinsonlab.info"/>
+	<ns5:publisher>Wilkinson Laboratory of Biological Informatics, UPM</ns5:publisher>
+	<ns6:page rdf:resource="http://dx.doi.org/10.5281/zenodo.161719"/>
+</rdf:Description>
+
+
+<rdf:Description xmlns:ns1="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://www.w3.org/ns/dcat#" rdf:about="https://zenodo.org/record/47641/files/final.SWR1_complex.png">
+	<ns1:format>image/png</ns1:format>
+	<rdf:type rdf:resource="http://purl.org/dc/dcmitype/Dataset"/>
+	<rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+	<ns2:downloadURL rdf:resource="https://zenodo.org/record/47641/files/final.SWR1_complex.png"/>
+</rdf:Description>
+<rdf:Description xmlns:ns1="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://www.w3.org/ns/dcat#" rdf:about="http://zenodo.org/record/161719/files/Fungal_Orthology_and_Protein_Domains.rdf">
+	<ns1:format>application/rdf+xml</ns1:format>
+	<rdf:type rdf:resource="http://purl.org/dc/dcmitype/Dataset"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+	<ns2:downloadURL rdf:resource="http://zenodo.org/record/161719/files/Fungal_Orthology_and_Protein_Domains.rdf"/>
+</rdf:Description>
+
+
+
+<rdf:Description
+		 xmlns:ns1="http://purl.org/dc/elements/1.1/"
+		 xmlns:ns2="http://purl.org/pav/"
+		 xmlns:ns3="http://rdfs.org/ns/void#"
+		 xmlns:ns4="http://www.ksl.stanford.edu/projects/DAML/ksl-daml-desc.daml#"
+		 xmlns:ns5="http://www.w3.org/ns/dcat#"
+		 xmlns:ns6="http://xmlns.com/foaf/0.1/"
+		 rdf:about="http://zenodo.org/record/161719/files/RNAME_Accessor_Metarecords.rdf#29a25582-0aba-11e6-b512-3e1d05defe78">
+	<ns1:creator rdf:resource="http://wilkinsonlab.info/"/>
+	
+	<ns1:issued>2016-03-30</ns1:issued>
+	<ns5:modified>2016-03-30</ns5:modified>
+	
+	<ns1:language rdf:resource="http://lexvo.org/id/iso639-3/eng"/>
+	<ns1:license rdf:resource="http://purl.org/NET/rdflicense/cc-by3.0us"/>
+	
+	<ns1:title>"Transcription termination"</ns1:title>
+	<ns2:authoredBy rdf:resource="http://orcid.org/0000-0002-6019-7306"/>
+	<ns2:authoredBy rdf:resource="http://orcid.org/0000-0002-2434-0240"/>
+	<ns3:inDataset rdf:resource="http://dx.doi.org/10.5281/zenodo.161719"/>
+	<ns4:has-Principle-Investigator>Dr. Mark Wilkinson</ns4:has-Principle-Investigator>
+	<ns4:has-Technical-Lead>Alejandro Rodriguez Iglesias</ns4:has-Technical-Lead>
+	<ns5:contactPoint rdf:resource="http://biordf.org/DataFairPort/MiscRDF/Wilkinson.rdf"/>
+	<ns5:description>Complexes involved in RNA Metabolism in fungi.  Dataset includes the complexes, their consituent proteins, the orthologues of those proteins in a range of fungal species, and the domain composition of those proteins</ns5:description>
+	
+	<ns5:distribution rdf:resource="http://zenodo.org/record/161719/files/Fungal_Orthology_and_Protein_Domains.rdf"/>
+	<ns5:distribution rdf:resource="https://zenodo.org/record/47641/files/final.Transcription_termination.png"/>
+
+	<ns5:identifier rdf:resource="http://zenodo.org/record/161719/files/Fungal_Orthology_and_Protein_Domains.n3#29a25582-0aba-11e6-b512-3e1d05defe78"/>
+	
+	<ns5:keyword>FAIR Data</ns5:keyword>
+	<ns5:keyword>RNA Metabolism</ns5:keyword>
+	<ns5:keyword>Evolution</ns5:keyword>
+	<ns5:keyword>Protein domains</ns5:keyword>
+	
+	<ns5:landingPage rdf:resource="http://www.wilkinsonlab.info/lab/node/27"/>
+	
+	<ns5:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/en"/>
+	<ns5:publisher rdf:resource="http://wilkinsonlab.info"/>
+	<ns5:publisher>Wilkinson Laboratory of Biological Informatics, UPM</ns5:publisher>
+	<ns6:page rdf:resource="http://dx.doi.org/10.5281/zenodo.161719"/>
+</rdf:Description>
+
+
+<rdf:Description xmlns:ns1="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://www.w3.org/ns/dcat#" rdf:about="https://zenodo.org/record/47641/files/final.Transcription_termination.png">
+	<ns1:format>image/png</ns1:format>
+	<rdf:type rdf:resource="http://purl.org/dc/dcmitype/Dataset"/>
+	<rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+	<ns2:downloadURL rdf:resource="https://zenodo.org/record/47641/files/final.Transcription_termination.png"/>
+</rdf:Description>
+<rdf:Description xmlns:ns1="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://www.w3.org/ns/dcat#" rdf:about="http://zenodo.org/record/161719/files/Fungal_Orthology_and_Protein_Domains.rdf">
+	<ns1:format>application/rdf+xml</ns1:format>
+	<rdf:type rdf:resource="http://purl.org/dc/dcmitype/Dataset"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+	<ns2:downloadURL rdf:resource="http://zenodo.org/record/161719/files/Fungal_Orthology_and_Protein_Domains.rdf"/>
+</rdf:Description>
+
+
+
+<rdf:Description
+		 xmlns:ns1="http://purl.org/dc/elements/1.1/"
+		 xmlns:ns2="http://purl.org/pav/"
+		 xmlns:ns3="http://rdfs.org/ns/void#"
+		 xmlns:ns4="http://www.ksl.stanford.edu/projects/DAML/ksl-daml-desc.daml#"
+		 xmlns:ns5="http://www.w3.org/ns/dcat#"
+		 xmlns:ns6="http://xmlns.com/foaf/0.1/"
+		 rdf:about="http://zenodo.org/record/161719/files/RNAME_Accessor_Metarecords.rdf#6d16f90e-0ab9-11e6-b512-3e1d05defe78">
+	<ns1:creator rdf:resource="http://wilkinsonlab.info/"/>
+	
+	<ns1:issued>2016-03-30</ns1:issued>
+	<ns5:modified>2016-03-30</ns5:modified>
+	
+	<ns1:language rdf:resource="http://lexvo.org/id/iso639-3/eng"/>
+	<ns1:license rdf:resource="http://purl.org/NET/rdflicense/cc-by3.0us"/>
+	
+	<ns1:title>"Histone methyl transferases"</ns1:title>
+	<ns2:authoredBy rdf:resource="http://orcid.org/0000-0002-6019-7306"/>
+	<ns2:authoredBy rdf:resource="http://orcid.org/0000-0002-2434-0240"/>
+	<ns3:inDataset rdf:resource="http://dx.doi.org/10.5281/zenodo.161719"/>
+	<ns4:has-Principle-Investigator>Dr. Mark Wilkinson</ns4:has-Principle-Investigator>
+	<ns4:has-Technical-Lead>Alejandro Rodriguez Iglesias</ns4:has-Technical-Lead>
+	<ns5:contactPoint rdf:resource="http://biordf.org/DataFairPort/MiscRDF/Wilkinson.rdf"/>
+	<ns5:description>Complexes involved in RNA Metabolism in fungi.  Dataset includes the complexes, their consituent proteins, the orthologues of those proteins in a range of fungal species, and the domain composition of those proteins</ns5:description>
+	
+	<ns5:distribution rdf:resource="http://zenodo.org/record/161719/files/Fungal_Orthology_and_Protein_Domains.rdf"/>
+	<ns5:distribution rdf:resource="https://zenodo.org/record/47641/files/final.Histone_methyl_transferases.png"/>
+
+	<ns5:identifier rdf:resource="http://zenodo.org/record/161719/files/Fungal_Orthology_and_Protein_Domains.n3#6d16f90e-0ab9-11e6-b512-3e1d05defe78"/>
+	
+	<ns5:keyword>FAIR Data</ns5:keyword>
+	<ns5:keyword>RNA Metabolism</ns5:keyword>
+	<ns5:keyword>Evolution</ns5:keyword>
+	<ns5:keyword>Protein domains</ns5:keyword>
+	
+	<ns5:landingPage rdf:resource="http://www.wilkinsonlab.info/lab/node/27"/>
+	
+	<ns5:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/en"/>
+	<ns5:publisher rdf:resource="http://wilkinsonlab.info"/>
+	<ns5:publisher>Wilkinson Laboratory of Biological Informatics, UPM</ns5:publisher>
+	<ns6:page rdf:resource="http://dx.doi.org/10.5281/zenodo.161719"/>
+</rdf:Description>
+
+
+<rdf:Description xmlns:ns1="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://www.w3.org/ns/dcat#" rdf:about="https://zenodo.org/record/47641/files/final.Histone_methyl_transferases.png">
+	<ns1:format>image/png</ns1:format>
+	<rdf:type rdf:resource="http://purl.org/dc/dcmitype/Dataset"/>
+	<rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+	<ns2:downloadURL rdf:resource="https://zenodo.org/record/47641/files/final.Histone_methyl_transferases.png"/>
+</rdf:Description>
+<rdf:Description xmlns:ns1="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://www.w3.org/ns/dcat#" rdf:about="http://zenodo.org/record/161719/files/Fungal_Orthology_and_Protein_Domains.rdf">
+	<ns1:format>application/rdf+xml</ns1:format>
+	<rdf:type rdf:resource="http://purl.org/dc/dcmitype/Dataset"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+	<ns2:downloadURL rdf:resource="http://zenodo.org/record/161719/files/Fungal_Orthology_and_Protein_Domains.rdf"/>
+</rdf:Description>
+
+
+
+<rdf:Description
+		 xmlns:ns1="http://purl.org/dc/elements/1.1/"
+		 xmlns:ns2="http://purl.org/pav/"
+		 xmlns:ns3="http://rdfs.org/ns/void#"
+		 xmlns:ns4="http://www.ksl.stanford.edu/projects/DAML/ksl-daml-desc.daml#"
+		 xmlns:ns5="http://www.w3.org/ns/dcat#"
+		 xmlns:ns6="http://xmlns.com/foaf/0.1/"
+		 rdf:about="http://zenodo.org/record/161719/files/RNAME_Accessor_Metarecords.rdf#6d16df14-0ab9-11e6-b512-3e1d05defe78">
+	<ns1:creator rdf:resource="http://wilkinsonlab.info/"/>
+	
+	<ns1:issued>2016-03-30</ns1:issued>
+	<ns5:modified>2016-03-30</ns5:modified>
+	
+	<ns1:language rdf:resource="http://lexvo.org/id/iso639-3/eng"/>
+	<ns1:license rdf:resource="http://purl.org/NET/rdflicense/cc-by3.0us"/>
+	
+	<ns1:title>"RNA polymerases common subunits"</ns1:title>
+	<ns2:authoredBy rdf:resource="http://orcid.org/0000-0002-6019-7306"/>
+	<ns2:authoredBy rdf:resource="http://orcid.org/0000-0002-2434-0240"/>
+	<ns3:inDataset rdf:resource="http://dx.doi.org/10.5281/zenodo.161719"/>
+	<ns4:has-Principle-Investigator>Dr. Mark Wilkinson</ns4:has-Principle-Investigator>
+	<ns4:has-Technical-Lead>Alejandro Rodriguez Iglesias</ns4:has-Technical-Lead>
+	<ns5:contactPoint rdf:resource="http://biordf.org/DataFairPort/MiscRDF/Wilkinson.rdf"/>
+	<ns5:description>Complexes involved in RNA Metabolism in fungi.  Dataset includes the complexes, their consituent proteins, the orthologues of those proteins in a range of fungal species, and the domain composition of those proteins</ns5:description>
+	
+	<ns5:distribution rdf:resource="http://zenodo.org/record/161719/files/Fungal_Orthology_and_Protein_Domains.rdf"/>
+	<ns5:distribution rdf:resource="https://zenodo.org/record/47641/files/final.RNA_polymerases_common_subunits.png"/>
+
+	<ns5:identifier rdf:resource="http://zenodo.org/record/161719/files/Fungal_Orthology_and_Protein_Domains.n3#6d16df14-0ab9-11e6-b512-3e1d05defe78"/>
+	
+	<ns5:keyword>FAIR Data</ns5:keyword>
+	<ns5:keyword>RNA Metabolism</ns5:keyword>
+	<ns5:keyword>Evolution</ns5:keyword>
+	<ns5:keyword>Protein domains</ns5:keyword>
+	
+	<ns5:landingPage rdf:resource="http://www.wilkinsonlab.info/lab/node/27"/>
+	
+	<ns5:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/en"/>
+	<ns5:publisher rdf:resource="http://wilkinsonlab.info"/>
+	<ns5:publisher>Wilkinson Laboratory of Biological Informatics, UPM</ns5:publisher>
+	<ns6:page rdf:resource="http://dx.doi.org/10.5281/zenodo.161719"/>
+</rdf:Description>
+
+
+<rdf:Description xmlns:ns1="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://www.w3.org/ns/dcat#" rdf:about="https://zenodo.org/record/47641/files/final.RNA_polymerases_common_subunits.png">
+	<ns1:format>image/png</ns1:format>
+	<rdf:type rdf:resource="http://purl.org/dc/dcmitype/Dataset"/>
+	<rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+	<ns2:downloadURL rdf:resource="https://zenodo.org/record/47641/files/final.RNA_polymerases_common_subunits.png"/>
+</rdf:Description>
+<rdf:Description xmlns:ns1="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://www.w3.org/ns/dcat#" rdf:about="http://zenodo.org/record/161719/files/Fungal_Orthology_and_Protein_Domains.rdf">
+	<ns1:format>application/rdf+xml</ns1:format>
+	<rdf:type rdf:resource="http://purl.org/dc/dcmitype/Dataset"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+	<ns2:downloadURL rdf:resource="http://zenodo.org/record/161719/files/Fungal_Orthology_and_Protein_Domains.rdf"/>
+</rdf:Description>
+
+
+
+<rdf:Description
+		 xmlns:ns1="http://purl.org/dc/elements/1.1/"
+		 xmlns:ns2="http://purl.org/pav/"
+		 xmlns:ns3="http://rdfs.org/ns/void#"
+		 xmlns:ns4="http://www.ksl.stanford.edu/projects/DAML/ksl-daml-desc.daml#"
+		 xmlns:ns5="http://www.w3.org/ns/dcat#"
+		 xmlns:ns6="http://xmlns.com/foaf/0.1/"
+		 rdf:about="http://zenodo.org/record/161719/files/RNAME_Accessor_Metarecords.rdf#29a2596a-0aba-11e6-b512-3e1d05defe78">
+	<ns1:creator rdf:resource="http://wilkinsonlab.info/"/>
+	
+	<ns1:issued>2016-03-30</ns1:issued>
+	<ns5:modified>2016-03-30</ns5:modified>
+	
+	<ns1:language rdf:resource="http://lexvo.org/id/iso639-3/eng"/>
+	<ns1:license rdf:resource="http://purl.org/NET/rdflicense/cc-by3.0us"/>
+	
+	<ns1:title>"CCR4-NOT complex"</ns1:title>
+	<ns2:authoredBy rdf:resource="http://orcid.org/0000-0002-6019-7306"/>
+	<ns2:authoredBy rdf:resource="http://orcid.org/0000-0002-2434-0240"/>
+	<ns3:inDataset rdf:resource="http://dx.doi.org/10.5281/zenodo.161719"/>
+	<ns4:has-Principle-Investigator>Dr. Mark Wilkinson</ns4:has-Principle-Investigator>
+	<ns4:has-Technical-Lead>Alejandro Rodriguez Iglesias</ns4:has-Technical-Lead>
+	<ns5:contactPoint rdf:resource="http://biordf.org/DataFairPort/MiscRDF/Wilkinson.rdf"/>
+	<ns5:description>Complexes involved in RNA Metabolism in fungi.  Dataset includes the complexes, their consituent proteins, the orthologues of those proteins in a range of fungal species, and the domain composition of those proteins</ns5:description>
+	
+	<ns5:distribution rdf:resource="http://zenodo.org/record/161719/files/Fungal_Orthology_and_Protein_Domains.rdf"/>
+	<ns5:distribution rdf:resource="https://zenodo.org/record/47641/files/final.CCR4NOT_complex.png"/>
+
+	<ns5:identifier rdf:resource="http://zenodo.org/record/161719/files/Fungal_Orthology_and_Protein_Domains.n3#29a2596a-0aba-11e6-b512-3e1d05defe78"/>
+	
+	<ns5:keyword>FAIR Data</ns5:keyword>
+	<ns5:keyword>RNA Metabolism</ns5:keyword>
+	<ns5:keyword>Evolution</ns5:keyword>
+	<ns5:keyword>Protein domains</ns5:keyword>
+	
+	<ns5:landingPage rdf:resource="http://www.wilkinsonlab.info/lab/node/27"/>
+	
+	<ns5:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/en"/>
+	<ns5:publisher rdf:resource="http://wilkinsonlab.info"/>
+	<ns5:publisher>Wilkinson Laboratory of Biological Informatics, UPM</ns5:publisher>
+	<ns6:page rdf:resource="http://dx.doi.org/10.5281/zenodo.161719"/>
+</rdf:Description>
+
+
+<rdf:Description xmlns:ns1="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://www.w3.org/ns/dcat#" rdf:about="https://zenodo.org/record/47641/files/final.CCR4NOT_complex.png">
+	<ns1:format>image/png</ns1:format>
+	<rdf:type rdf:resource="http://purl.org/dc/dcmitype/Dataset"/>
+	<rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+	<ns2:downloadURL rdf:resource="https://zenodo.org/record/47641/files/final.CCR4NOT_complex.png"/>
+</rdf:Description>
+<rdf:Description xmlns:ns1="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://www.w3.org/ns/dcat#" rdf:about="http://zenodo.org/record/161719/files/Fungal_Orthology_and_Protein_Domains.rdf">
+	<ns1:format>application/rdf+xml</ns1:format>
+	<rdf:type rdf:resource="http://purl.org/dc/dcmitype/Dataset"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+	<ns2:downloadURL rdf:resource="http://zenodo.org/record/161719/files/Fungal_Orthology_and_Protein_Domains.rdf"/>
+</rdf:Description>
+
+
+
+<rdf:Description
+		 xmlns:ns1="http://purl.org/dc/elements/1.1/"
+		 xmlns:ns2="http://purl.org/pav/"
+		 xmlns:ns3="http://rdfs.org/ns/void#"
+		 xmlns:ns4="http://www.ksl.stanford.edu/projects/DAML/ksl-daml-desc.daml#"
+		 xmlns:ns5="http://www.w3.org/ns/dcat#"
+		 xmlns:ns6="http://xmlns.com/foaf/0.1/"
+		 rdf:about="http://zenodo.org/record/161719/files/RNAME_Accessor_Metarecords.rdf#6d16d622-0ab9-11e6-b512-3e1d05defe78">
+	<ns1:creator rdf:resource="http://wilkinsonlab.info/"/>
+	
+	<ns1:issued>2016-03-30</ns1:issued>
+	<ns5:modified>2016-03-30</ns5:modified>
+	
+	<ns1:language rdf:resource="http://lexvo.org/id/iso639-3/eng"/>
+	<ns1:license rdf:resource="http://purl.org/NET/rdflicense/cc-by3.0us"/>
+	
+	<ns1:title>"Transcription Factor II holoenzyme (general TF: TFIIB D E F and H)"</ns1:title>
+	<ns2:authoredBy rdf:resource="http://orcid.org/0000-0002-6019-7306"/>
+	<ns2:authoredBy rdf:resource="http://orcid.org/0000-0002-2434-0240"/>
+	<ns3:inDataset rdf:resource="http://dx.doi.org/10.5281/zenodo.161719"/>
+	<ns4:has-Principle-Investigator>Dr. Mark Wilkinson</ns4:has-Principle-Investigator>
+	<ns4:has-Technical-Lead>Alejandro Rodriguez Iglesias</ns4:has-Technical-Lead>
+	<ns5:contactPoint rdf:resource="http://biordf.org/DataFairPort/MiscRDF/Wilkinson.rdf"/>
+	<ns5:description>Complexes involved in RNA Metabolism in fungi.  Dataset includes the complexes, their consituent proteins, the orthologues of those proteins in a range of fungal species, and the domain composition of those proteins</ns5:description>
+	
+	<ns5:distribution rdf:resource="http://zenodo.org/record/161719/files/Fungal_Orthology_and_Protein_Domains.rdf"/>
+	<ns5:distribution rdf:resource="https://zenodo.org/record/47641/files/final.Transcription_Factor_II_holoenzyme_.png"/>
+
+	<ns5:identifier rdf:resource="http://zenodo.org/record/161719/files/Fungal_Orthology_and_Protein_Domains.n3#6d16d622-0ab9-11e6-b512-3e1d05defe78"/>
+	
+	<ns5:keyword>FAIR Data</ns5:keyword>
+	<ns5:keyword>RNA Metabolism</ns5:keyword>
+	<ns5:keyword>Evolution</ns5:keyword>
+	<ns5:keyword>Protein domains</ns5:keyword>
+	
+	<ns5:landingPage rdf:resource="http://www.wilkinsonlab.info/lab/node/27"/>
+	
+	<ns5:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/en"/>
+	<ns5:publisher rdf:resource="http://wilkinsonlab.info"/>
+	<ns5:publisher>Wilkinson Laboratory of Biological Informatics, UPM</ns5:publisher>
+	<ns6:page rdf:resource="http://dx.doi.org/10.5281/zenodo.161719"/>
+</rdf:Description>
+
+
+<rdf:Description xmlns:ns1="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://www.w3.org/ns/dcat#" rdf:about="https://zenodo.org/record/47641/files/final.Transcription_Factor_II_holoenzyme_.png">
+	<ns1:format>image/png</ns1:format>
+	<rdf:type rdf:resource="http://purl.org/dc/dcmitype/Dataset"/>
+	<rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+	<ns2:downloadURL rdf:resource="https://zenodo.org/record/47641/files/final.Transcription_Factor_II_holoenzyme_.png"/>
+</rdf:Description>
+<rdf:Description xmlns:ns1="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://www.w3.org/ns/dcat#" rdf:about="http://zenodo.org/record/161719/files/Fungal_Orthology_and_Protein_Domains.rdf">
+	<ns1:format>application/rdf+xml</ns1:format>
+	<rdf:type rdf:resource="http://purl.org/dc/dcmitype/Dataset"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+	<ns2:downloadURL rdf:resource="http://zenodo.org/record/161719/files/Fungal_Orthology_and_Protein_Domains.rdf"/>
+</rdf:Description>
+
+
+
+<rdf:Description
+		 xmlns:ns1="http://purl.org/dc/elements/1.1/"
+		 xmlns:ns2="http://purl.org/pav/"
+		 xmlns:ns3="http://rdfs.org/ns/void#"
+		 xmlns:ns4="http://www.ksl.stanford.edu/projects/DAML/ksl-daml-desc.daml#"
+		 xmlns:ns5="http://www.w3.org/ns/dcat#"
+		 xmlns:ns6="http://xmlns.com/foaf/0.1/"
+		 rdf:about="http://zenodo.org/record/161719/files/RNAME_Accessor_Metarecords.rdf#6d16fa9e-0ab9-11e6-b512-3e1d05defe78">
+	<ns1:creator rdf:resource="http://wilkinsonlab.info/"/>
+	
+	<ns1:issued>2016-03-30</ns1:issued>
+	<ns5:modified>2016-03-30</ns5:modified>
+	
+	<ns1:language rdf:resource="http://lexvo.org/id/iso639-3/eng"/>
+	<ns1:license rdf:resource="http://purl.org/NET/rdflicense/cc-by3.0us"/>
+	
+	<ns1:title>"NuA4 histone acetyl transferase complex"</ns1:title>
+	<ns2:authoredBy rdf:resource="http://orcid.org/0000-0002-6019-7306"/>
+	<ns2:authoredBy rdf:resource="http://orcid.org/0000-0002-2434-0240"/>
+	<ns3:inDataset rdf:resource="http://dx.doi.org/10.5281/zenodo.161719"/>
+	<ns4:has-Principle-Investigator>Dr. Mark Wilkinson</ns4:has-Principle-Investigator>
+	<ns4:has-Technical-Lead>Alejandro Rodriguez Iglesias</ns4:has-Technical-Lead>
+	<ns5:contactPoint rdf:resource="http://biordf.org/DataFairPort/MiscRDF/Wilkinson.rdf"/>
+	<ns5:description>Complexes involved in RNA Metabolism in fungi.  Dataset includes the complexes, their consituent proteins, the orthologues of those proteins in a range of fungal species, and the domain composition of those proteins</ns5:description>
+	
+	<ns5:distribution rdf:resource="http://zenodo.org/record/161719/files/Fungal_Orthology_and_Protein_Domains.rdf"/>
+	<ns5:distribution rdf:resource="https://zenodo.org/record/47641/files/final.NuA4_histone_acetyl_transferase_complex.png"/>
+
+	<ns5:identifier rdf:resource="http://zenodo.org/record/161719/files/Fungal_Orthology_and_Protein_Domains.n3#6d16fa9e-0ab9-11e6-b512-3e1d05defe78"/>
+	
+	<ns5:keyword>FAIR Data</ns5:keyword>
+	<ns5:keyword>RNA Metabolism</ns5:keyword>
+	<ns5:keyword>Evolution</ns5:keyword>
+	<ns5:keyword>Protein domains</ns5:keyword>
+	
+	<ns5:landingPage rdf:resource="http://www.wilkinsonlab.info/lab/node/27"/>
+	
+	<ns5:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/en"/>
+	<ns5:publisher rdf:resource="http://wilkinsonlab.info"/>
+	<ns5:publisher>Wilkinson Laboratory of Biological Informatics, UPM</ns5:publisher>
+	<ns6:page rdf:resource="http://dx.doi.org/10.5281/zenodo.161719"/>
+</rdf:Description>
+
+
+<rdf:Description xmlns:ns1="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://www.w3.org/ns/dcat#" rdf:about="https://zenodo.org/record/47641/files/final.NuA4_histone_acetyl_transferase_complex.png">
+	<ns1:format>image/png</ns1:format>
+	<rdf:type rdf:resource="http://purl.org/dc/dcmitype/Dataset"/>
+	<rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+	<ns2:downloadURL rdf:resource="https://zenodo.org/record/47641/files/final.NuA4_histone_acetyl_transferase_complex.png"/>
+</rdf:Description>
+<rdf:Description xmlns:ns1="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://www.w3.org/ns/dcat#" rdf:about="http://zenodo.org/record/161719/files/Fungal_Orthology_and_Protein_Domains.rdf">
+	<ns1:format>application/rdf+xml</ns1:format>
+	<rdf:type rdf:resource="http://purl.org/dc/dcmitype/Dataset"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+	<ns2:downloadURL rdf:resource="http://zenodo.org/record/161719/files/Fungal_Orthology_and_Protein_Domains.rdf"/>
+</rdf:Description>
+
+
+
+<rdf:Description
+		 xmlns:ns1="http://purl.org/dc/elements/1.1/"
+		 xmlns:ns2="http://purl.org/pav/"
+		 xmlns:ns3="http://rdfs.org/ns/void#"
+		 xmlns:ns4="http://www.ksl.stanford.edu/projects/DAML/ksl-daml-desc.daml#"
+		 xmlns:ns5="http://www.w3.org/ns/dcat#"
+		 xmlns:ns6="http://xmlns.com/foaf/0.1/"
+		 rdf:about="http://zenodo.org/record/161719/files/RNAME_Accessor_Metarecords.rdf#6d16e23e-0ab9-11e6-b512-3e1d05defe78">
+	<ns1:creator rdf:resource="http://wilkinsonlab.info/"/>
+	
+	<ns1:issued>2016-03-30</ns1:issued>
+	<ns5:modified>2016-03-30</ns5:modified>
+	
+	<ns1:language rdf:resource="http://lexvo.org/id/iso639-3/eng"/>
+	<ns1:license rdf:resource="http://purl.org/NET/rdflicense/cc-by3.0us"/>
+	
+	<ns1:title>"RNA polymerase I subunits"</ns1:title>
+	<ns2:authoredBy rdf:resource="http://orcid.org/0000-0002-6019-7306"/>
+	<ns2:authoredBy rdf:resource="http://orcid.org/0000-0002-2434-0240"/>
+	<ns3:inDataset rdf:resource="http://dx.doi.org/10.5281/zenodo.161719"/>
+	<ns4:has-Principle-Investigator>Dr. Mark Wilkinson</ns4:has-Principle-Investigator>
+	<ns4:has-Technical-Lead>Alejandro Rodriguez Iglesias</ns4:has-Technical-Lead>
+	<ns5:contactPoint rdf:resource="http://biordf.org/DataFairPort/MiscRDF/Wilkinson.rdf"/>
+	<ns5:description>Complexes involved in RNA Metabolism in fungi.  Dataset includes the complexes, their consituent proteins, the orthologues of those proteins in a range of fungal species, and the domain composition of those proteins</ns5:description>
+	
+	<ns5:distribution rdf:resource="http://zenodo.org/record/161719/files/Fungal_Orthology_and_Protein_Domains.rdf"/>
+	<ns5:distribution rdf:resource="https://zenodo.org/record/47641/files/final.RNA_polymerase_I_subunits.png"/>
+
+	<ns5:identifier rdf:resource="http://zenodo.org/record/161719/files/Fungal_Orthology_and_Protein_Domains.n3#6d16e23e-0ab9-11e6-b512-3e1d05defe78"/>
+	
+	<ns5:keyword>FAIR Data</ns5:keyword>
+	<ns5:keyword>RNA Metabolism</ns5:keyword>
+	<ns5:keyword>Evolution</ns5:keyword>
+	<ns5:keyword>Protein domains</ns5:keyword>
+	
+	<ns5:landingPage rdf:resource="http://www.wilkinsonlab.info/lab/node/27"/>
+	
+	<ns5:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/en"/>
+	<ns5:publisher rdf:resource="http://wilkinsonlab.info"/>
+	<ns5:publisher>Wilkinson Laboratory of Biological Informatics, UPM</ns5:publisher>
+	<ns6:page rdf:resource="http://dx.doi.org/10.5281/zenodo.161719"/>
+</rdf:Description>
+
+
+<rdf:Description xmlns:ns1="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://www.w3.org/ns/dcat#" rdf:about="https://zenodo.org/record/47641/files/final.RNA_polymerase_I_subunits.png">
+	<ns1:format>image/png</ns1:format>
+	<rdf:type rdf:resource="http://purl.org/dc/dcmitype/Dataset"/>
+	<rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+	<ns2:downloadURL rdf:resource="https://zenodo.org/record/47641/files/final.RNA_polymerase_I_subunits.png"/>
+</rdf:Description>
+<rdf:Description xmlns:ns1="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://www.w3.org/ns/dcat#" rdf:about="http://zenodo.org/record/161719/files/Fungal_Orthology_and_Protein_Domains.rdf">
+	<ns1:format>application/rdf+xml</ns1:format>
+	<rdf:type rdf:resource="http://purl.org/dc/dcmitype/Dataset"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+	<ns2:downloadURL rdf:resource="http://zenodo.org/record/161719/files/Fungal_Orthology_and_Protein_Domains.rdf"/>
+</rdf:Description>
+
+
+
+<rdf:Description
+		 xmlns:ns1="http://purl.org/dc/elements/1.1/"
+		 xmlns:ns2="http://purl.org/pav/"
+		 xmlns:ns3="http://rdfs.org/ns/void#"
+		 xmlns:ns4="http://www.ksl.stanford.edu/projects/DAML/ksl-daml-desc.daml#"
+		 xmlns:ns5="http://www.w3.org/ns/dcat#"
+		 xmlns:ns6="http://xmlns.com/foaf/0.1/"
+		 rdf:about="http://zenodo.org/record/161719/files/RNAME_Accessor_Metarecords.rdf#6d16cede-0ab9-11e6-b512-3e1d05defe78">
+	<ns1:creator rdf:resource="http://wilkinsonlab.info/"/>
+	
+	<ns1:issued>2016-03-30</ns1:issued>
+	<ns5:modified>2016-03-30</ns5:modified>
+	
+	<ns1:language rdf:resource="http://lexvo.org/id/iso639-3/eng"/>
+	<ns1:license rdf:resource="http://purl.org/NET/rdflicense/cc-by3.0us"/>
+	
+	<ns1:title>"Transcription Factor I holoenzyme"</ns1:title>
+	<ns2:authoredBy rdf:resource="http://orcid.org/0000-0002-6019-7306"/>
+	<ns2:authoredBy rdf:resource="http://orcid.org/0000-0002-2434-0240"/>
+	<ns3:inDataset rdf:resource="http://dx.doi.org/10.5281/zenodo.161719"/>
+	<ns4:has-Principle-Investigator>Dr. Mark Wilkinson</ns4:has-Principle-Investigator>
+	<ns4:has-Technical-Lead>Alejandro Rodriguez Iglesias</ns4:has-Technical-Lead>
+	<ns5:contactPoint rdf:resource="http://biordf.org/DataFairPort/MiscRDF/Wilkinson.rdf"/>
+	<ns5:description>Complexes involved in RNA Metabolism in fungi.  Dataset includes the complexes, their consituent proteins, the orthologues of those proteins in a range of fungal species, and the domain composition of those proteins</ns5:description>
+	
+	<ns5:distribution rdf:resource="http://zenodo.org/record/161719/files/Fungal_Orthology_and_Protein_Domains.rdf"/>
+	<ns5:distribution rdf:resource="https://zenodo.org/record/47641/files/final.Transcription_Factor_I_holoenzyme.png"/>
+
+	<ns5:identifier rdf:resource="http://zenodo.org/record/161719/files/Fungal_Orthology_and_Protein_Domains.n3#6d16cede-0ab9-11e6-b512-3e1d05defe78"/>
+	
+	<ns5:keyword>FAIR Data</ns5:keyword>
+	<ns5:keyword>RNA Metabolism</ns5:keyword>
+	<ns5:keyword>Evolution</ns5:keyword>
+	<ns5:keyword>Protein domains</ns5:keyword>
+	
+	<ns5:landingPage rdf:resource="http://www.wilkinsonlab.info/lab/node/27"/>
+	
+	<ns5:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/en"/>
+	<ns5:publisher rdf:resource="http://wilkinsonlab.info"/>
+	<ns5:publisher>Wilkinson Laboratory of Biological Informatics, UPM</ns5:publisher>
+	<ns6:page rdf:resource="http://dx.doi.org/10.5281/zenodo.161719"/>
+</rdf:Description>
+
+
+<rdf:Description xmlns:ns1="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://www.w3.org/ns/dcat#" rdf:about="https://zenodo.org/record/47641/files/final.Transcription_Factor_I_holoenzyme.png">
+	<ns1:format>image/png</ns1:format>
+	<rdf:type rdf:resource="http://purl.org/dc/dcmitype/Dataset"/>
+	<rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+	<ns2:downloadURL rdf:resource="https://zenodo.org/record/47641/files/final.Transcription_Factor_I_holoenzyme.png"/>
+</rdf:Description>
+<rdf:Description xmlns:ns1="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://www.w3.org/ns/dcat#" rdf:about="http://zenodo.org/record/161719/files/Fungal_Orthology_and_Protein_Domains.rdf">
+	<ns1:format>application/rdf+xml</ns1:format>
+	<rdf:type rdf:resource="http://purl.org/dc/dcmitype/Dataset"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+	<ns2:downloadURL rdf:resource="http://zenodo.org/record/161719/files/Fungal_Orthology_and_Protein_Domains.rdf"/>
+</rdf:Description>
+
+
+
+<rdf:Description
+		 xmlns:ns1="http://purl.org/dc/elements/1.1/"
+		 xmlns:ns2="http://purl.org/pav/"
+		 xmlns:ns3="http://rdfs.org/ns/void#"
+		 xmlns:ns4="http://www.ksl.stanford.edu/projects/DAML/ksl-daml-desc.daml#"
+		 xmlns:ns5="http://www.w3.org/ns/dcat#"
+		 xmlns:ns6="http://xmlns.com/foaf/0.1/"
+		 rdf:about="http://zenodo.org/record/161719/files/RNAME_Accessor_Metarecords.rdf#6d16e3ba-0ab9-11e6-b512-3e1d05defe78">
+	<ns1:creator rdf:resource="http://wilkinsonlab.info/"/>
+	
+	<ns1:issued>2016-03-30</ns1:issued>
+	<ns5:modified>2016-03-30</ns5:modified>
+	
+	<ns1:language rdf:resource="http://lexvo.org/id/iso639-3/eng"/>
+	<ns1:license rdf:resource="http://purl.org/NET/rdflicense/cc-by3.0us"/>
+	
+	<ns1:title>"RNA polymerase II subunits"</ns1:title>
+	<ns2:authoredBy rdf:resource="http://orcid.org/0000-0002-6019-7306"/>
+	<ns2:authoredBy rdf:resource="http://orcid.org/0000-0002-2434-0240"/>
+	<ns3:inDataset rdf:resource="http://dx.doi.org/10.5281/zenodo.161719"/>
+	<ns4:has-Principle-Investigator>Dr. Mark Wilkinson</ns4:has-Principle-Investigator>
+	<ns4:has-Technical-Lead>Alejandro Rodriguez Iglesias</ns4:has-Technical-Lead>
+	<ns5:contactPoint rdf:resource="http://biordf.org/DataFairPort/MiscRDF/Wilkinson.rdf"/>
+	<ns5:description>Complexes involved in RNA Metabolism in fungi.  Dataset includes the complexes, their consituent proteins, the orthologues of those proteins in a range of fungal species, and the domain composition of those proteins</ns5:description>
+	
+	<ns5:distribution rdf:resource="http://zenodo.org/record/161719/files/Fungal_Orthology_and_Protein_Domains.rdf"/>
+	<ns5:distribution rdf:resource="https://zenodo.org/record/47641/files/final.RNA_polymerase_II_subunits.png"/>
+
+	<ns5:identifier rdf:resource="http://zenodo.org/record/161719/files/Fungal_Orthology_and_Protein_Domains.n3#6d16e3ba-0ab9-11e6-b512-3e1d05defe78"/>
+	
+	<ns5:keyword>FAIR Data</ns5:keyword>
+	<ns5:keyword>RNA Metabolism</ns5:keyword>
+	<ns5:keyword>Evolution</ns5:keyword>
+	<ns5:keyword>Protein domains</ns5:keyword>
+	
+	<ns5:landingPage rdf:resource="http://www.wilkinsonlab.info/lab/node/27"/>
+	
+	<ns5:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/en"/>
+	<ns5:publisher rdf:resource="http://wilkinsonlab.info"/>
+	<ns5:publisher>Wilkinson Laboratory of Biological Informatics, UPM</ns5:publisher>
+	<ns6:page rdf:resource="http://dx.doi.org/10.5281/zenodo.161719"/>
+</rdf:Description>
+
+
+<rdf:Description xmlns:ns1="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://www.w3.org/ns/dcat#" rdf:about="https://zenodo.org/record/47641/files/final.RNA_polymerase_II_subunits.png">
+	<ns1:format>image/png</ns1:format>
+	<rdf:type rdf:resource="http://purl.org/dc/dcmitype/Dataset"/>
+	<rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+	<ns2:downloadURL rdf:resource="https://zenodo.org/record/47641/files/final.RNA_polymerase_II_subunits.png"/>
+</rdf:Description>
+<rdf:Description xmlns:ns1="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://www.w3.org/ns/dcat#" rdf:about="http://zenodo.org/record/161719/files/Fungal_Orthology_and_Protein_Domains.rdf">
+	<ns1:format>application/rdf+xml</ns1:format>
+	<rdf:type rdf:resource="http://purl.org/dc/dcmitype/Dataset"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+	<ns2:downloadURL rdf:resource="http://zenodo.org/record/161719/files/Fungal_Orthology_and_Protein_Domains.rdf"/>
+</rdf:Description>
+
+
+
+<rdf:Description
+		 xmlns:ns1="http://purl.org/dc/elements/1.1/"
+		 xmlns:ns2="http://purl.org/pav/"
+		 xmlns:ns3="http://rdfs.org/ns/void#"
+		 xmlns:ns4="http://www.ksl.stanford.edu/projects/DAML/ksl-daml-desc.daml#"
+		 xmlns:ns5="http://www.w3.org/ns/dcat#"
+		 xmlns:ns6="http://xmlns.com/foaf/0.1/"
+		 rdf:about="http://zenodo.org/record/161719/files/RNAME_Accessor_Metarecords.rdf#6d16ffda-0ab9-11e6-b512-3e1d05defe78">
+	<ns1:creator rdf:resource="http://wilkinsonlab.info/"/>
+	
+	<ns1:issued>2016-03-30</ns1:issued>
+	<ns5:modified>2016-03-30</ns5:modified>
+	
+	<ns1:language rdf:resource="http://lexvo.org/id/iso639-3/eng"/>
+	<ns1:license rdf:resource="http://purl.org/NET/rdflicense/cc-by3.0us"/>
+	
+	<ns1:title>"Methyltransferases associated with transcription regulation"</ns1:title>
+	<ns2:authoredBy rdf:resource="http://orcid.org/0000-0002-6019-7306"/>
+	<ns2:authoredBy rdf:resource="http://orcid.org/0000-0002-2434-0240"/>
+	<ns3:inDataset rdf:resource="http://dx.doi.org/10.5281/zenodo.161719"/>
+	<ns4:has-Principle-Investigator>Dr. Mark Wilkinson</ns4:has-Principle-Investigator>
+	<ns4:has-Technical-Lead>Alejandro Rodriguez Iglesias</ns4:has-Technical-Lead>
+	<ns5:contactPoint rdf:resource="http://biordf.org/DataFairPort/MiscRDF/Wilkinson.rdf"/>
+	<ns5:description>Complexes involved in RNA Metabolism in fungi.  Dataset includes the complexes, their consituent proteins, the orthologues of those proteins in a range of fungal species, and the domain composition of those proteins</ns5:description>
+	
+	<ns5:distribution rdf:resource="http://zenodo.org/record/161719/files/Fungal_Orthology_and_Protein_Domains.rdf"/>
+	<ns5:distribution rdf:resource="https://zenodo.org/record/47641/files/final.Methyltransferases_associated_with_transcription_regulation.png"/>
+
+	<ns5:identifier rdf:resource="http://zenodo.org/record/161719/files/Fungal_Orthology_and_Protein_Domains.n3#6d16ffda-0ab9-11e6-b512-3e1d05defe78"/>
+	
+	<ns5:keyword>FAIR Data</ns5:keyword>
+	<ns5:keyword>RNA Metabolism</ns5:keyword>
+	<ns5:keyword>Evolution</ns5:keyword>
+	<ns5:keyword>Protein domains</ns5:keyword>
+	
+	<ns5:landingPage rdf:resource="http://www.wilkinsonlab.info/lab/node/27"/>
+	
+	<ns5:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/en"/>
+	<ns5:publisher rdf:resource="http://wilkinsonlab.info"/>
+	<ns5:publisher>Wilkinson Laboratory of Biological Informatics, UPM</ns5:publisher>
+	<ns6:page rdf:resource="http://dx.doi.org/10.5281/zenodo.161719"/>
+</rdf:Description>
+
+
+<rdf:Description xmlns:ns1="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://www.w3.org/ns/dcat#" rdf:about="https://zenodo.org/record/47641/files/final.Methyltransferases_associated_with_transcription_regulation.png">
+	<ns1:format>image/png</ns1:format>
+	<rdf:type rdf:resource="http://purl.org/dc/dcmitype/Dataset"/>
+	<rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+	<ns2:downloadURL rdf:resource="https://zenodo.org/record/47641/files/final.Methyltransferases_associated_with_transcription_regulation.png"/>
+</rdf:Description>
+<rdf:Description xmlns:ns1="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://www.w3.org/ns/dcat#" rdf:about="http://zenodo.org/record/161719/files/Fungal_Orthology_and_Protein_Domains.rdf">
+	<ns1:format>application/rdf+xml</ns1:format>
+	<rdf:type rdf:resource="http://purl.org/dc/dcmitype/Dataset"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+	<ns2:downloadURL rdf:resource="http://zenodo.org/record/161719/files/Fungal_Orthology_and_Protein_Domains.rdf"/>
+</rdf:Description>
+
+
+
+<rdf:Description
+		 xmlns:ns1="http://purl.org/dc/elements/1.1/"
+		 xmlns:ns2="http://purl.org/pav/"
+		 xmlns:ns3="http://rdfs.org/ns/void#"
+		 xmlns:ns4="http://www.ksl.stanford.edu/projects/DAML/ksl-daml-desc.daml#"
+		 xmlns:ns5="http://www.w3.org/ns/dcat#"
+		 xmlns:ns6="http://xmlns.com/foaf/0.1/"
+		 rdf:about="http://zenodo.org/record/161719/files/RNAME_Accessor_Metarecords.rdf#6d16eefa-0ab9-11e6-b512-3e1d05defe78">
+	<ns1:creator rdf:resource="http://wilkinsonlab.info/"/>
+	
+	<ns1:issued>2016-03-30</ns1:issued>
+	<ns5:modified>2016-03-30</ns5:modified>
+	
+	<ns1:language rdf:resource="http://lexvo.org/id/iso639-3/eng"/>
+	<ns1:license rdf:resource="http://purl.org/NET/rdflicense/cc-by3.0us"/>
+	
+	<ns1:title>"Other chromatin remodellers"</ns1:title>
+	<ns2:authoredBy rdf:resource="http://orcid.org/0000-0002-6019-7306"/>
+	<ns2:authoredBy rdf:resource="http://orcid.org/0000-0002-2434-0240"/>
+	<ns3:inDataset rdf:resource="http://dx.doi.org/10.5281/zenodo.161719"/>
+	<ns4:has-Principle-Investigator>Dr. Mark Wilkinson</ns4:has-Principle-Investigator>
+	<ns4:has-Technical-Lead>Alejandro Rodriguez Iglesias</ns4:has-Technical-Lead>
+	<ns5:contactPoint rdf:resource="http://biordf.org/DataFairPort/MiscRDF/Wilkinson.rdf"/>
+	<ns5:description>Complexes involved in RNA Metabolism in fungi.  Dataset includes the complexes, their consituent proteins, the orthologues of those proteins in a range of fungal species, and the domain composition of those proteins</ns5:description>
+	
+	<ns5:distribution rdf:resource="http://zenodo.org/record/161719/files/Fungal_Orthology_and_Protein_Domains.rdf"/>
+	<ns5:distribution rdf:resource="https://zenodo.org/record/47641/files/final.Other_chromatin_remodellers_.png"/>
+
+	<ns5:identifier rdf:resource="http://zenodo.org/record/161719/files/Fungal_Orthology_and_Protein_Domains.n3#6d16eefa-0ab9-11e6-b512-3e1d05defe78"/>
+	
+	<ns5:keyword>FAIR Data</ns5:keyword>
+	<ns5:keyword>RNA Metabolism</ns5:keyword>
+	<ns5:keyword>Evolution</ns5:keyword>
+	<ns5:keyword>Protein domains</ns5:keyword>
+	
+	<ns5:landingPage rdf:resource="http://www.wilkinsonlab.info/lab/node/27"/>
+	
+	<ns5:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/en"/>
+	<ns5:publisher rdf:resource="http://wilkinsonlab.info"/>
+	<ns5:publisher>Wilkinson Laboratory of Biological Informatics, UPM</ns5:publisher>
+	<ns6:page rdf:resource="http://dx.doi.org/10.5281/zenodo.161719"/>
+</rdf:Description>
+
+
+<rdf:Description xmlns:ns1="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://www.w3.org/ns/dcat#" rdf:about="https://zenodo.org/record/47641/files/final.Other_chromatin_remodellers_.png">
+	<ns1:format>image/png</ns1:format>
+	<rdf:type rdf:resource="http://purl.org/dc/dcmitype/Dataset"/>
+	<rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+	<ns2:downloadURL rdf:resource="https://zenodo.org/record/47641/files/final.Other_chromatin_remodellers_.png"/>
+</rdf:Description>
+<rdf:Description xmlns:ns1="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://www.w3.org/ns/dcat#" rdf:about="http://zenodo.org/record/161719/files/Fungal_Orthology_and_Protein_Domains.rdf">
+	<ns1:format>application/rdf+xml</ns1:format>
+	<rdf:type rdf:resource="http://purl.org/dc/dcmitype/Dataset"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+	<ns2:downloadURL rdf:resource="http://zenodo.org/record/161719/files/Fungal_Orthology_and_Protein_Domains.rdf"/>
+</rdf:Description>
+
+
+
+<rdf:Description
+		 xmlns:ns1="http://purl.org/dc/elements/1.1/"
+		 xmlns:ns2="http://purl.org/pav/"
+		 xmlns:ns3="http://rdfs.org/ns/void#"
+		 xmlns:ns4="http://www.ksl.stanford.edu/projects/DAML/ksl-daml-desc.daml#"
+		 xmlns:ns5="http://www.w3.org/ns/dcat#"
+		 xmlns:ns6="http://xmlns.com/foaf/0.1/"
+		 rdf:about="http://zenodo.org/record/161719/files/RNAME_Accessor_Metarecords.rdf#6d16f774-0ab9-11e6-b512-3e1d05defe78">
+	<ns1:creator rdf:resource="http://wilkinsonlab.info/"/>
+	
+	<ns1:issued>2016-03-30</ns1:issued>
+	<ns5:modified>2016-03-30</ns5:modified>
+	
+	<ns1:language rdf:resource="http://lexvo.org/id/iso639-3/eng"/>
+	<ns1:license rdf:resource="http://purl.org/NET/rdflicense/cc-by3.0us"/>
+	
+	<ns1:title>"SET3 histone deacetylase complex"</ns1:title>
+	<ns2:authoredBy rdf:resource="http://orcid.org/0000-0002-6019-7306"/>
+	<ns2:authoredBy rdf:resource="http://orcid.org/0000-0002-2434-0240"/>
+	<ns3:inDataset rdf:resource="http://dx.doi.org/10.5281/zenodo.161719"/>
+	<ns4:has-Principle-Investigator>Dr. Mark Wilkinson</ns4:has-Principle-Investigator>
+	<ns4:has-Technical-Lead>Alejandro Rodriguez Iglesias</ns4:has-Technical-Lead>
+	<ns5:contactPoint rdf:resource="http://biordf.org/DataFairPort/MiscRDF/Wilkinson.rdf"/>
+	<ns5:description>Complexes involved in RNA Metabolism in fungi.  Dataset includes the complexes, their consituent proteins, the orthologues of those proteins in a range of fungal species, and the domain composition of those proteins</ns5:description>
+	
+	<ns5:distribution rdf:resource="http://zenodo.org/record/161719/files/Fungal_Orthology_and_Protein_Domains.rdf"/>
+	<ns5:distribution rdf:resource="https://zenodo.org/record/47641/files/final.SET3_histone_deacetylase_complex.png"/>
+
+	<ns5:identifier rdf:resource="http://zenodo.org/record/161719/files/Fungal_Orthology_and_Protein_Domains.n3#6d16f774-0ab9-11e6-b512-3e1d05defe78"/>
+	
+	<ns5:keyword>FAIR Data</ns5:keyword>
+	<ns5:keyword>RNA Metabolism</ns5:keyword>
+	<ns5:keyword>Evolution</ns5:keyword>
+	<ns5:keyword>Protein domains</ns5:keyword>
+	
+	<ns5:landingPage rdf:resource="http://www.wilkinsonlab.info/lab/node/27"/>
+	
+	<ns5:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/en"/>
+	<ns5:publisher rdf:resource="http://wilkinsonlab.info"/>
+	<ns5:publisher>Wilkinson Laboratory of Biological Informatics, UPM</ns5:publisher>
+	<ns6:page rdf:resource="http://dx.doi.org/10.5281/zenodo.161719"/>
+</rdf:Description>
+
+
+<rdf:Description xmlns:ns1="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://www.w3.org/ns/dcat#" rdf:about="https://zenodo.org/record/47641/files/final.SET3_histone_deacetylase_complex.png">
+	<ns1:format>image/png</ns1:format>
+	<rdf:type rdf:resource="http://purl.org/dc/dcmitype/Dataset"/>
+	<rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+	<ns2:downloadURL rdf:resource="https://zenodo.org/record/47641/files/final.SET3_histone_deacetylase_complex.png"/>
+</rdf:Description>
+<rdf:Description xmlns:ns1="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://www.w3.org/ns/dcat#" rdf:about="http://zenodo.org/record/161719/files/Fungal_Orthology_and_Protein_Domains.rdf">
+	<ns1:format>application/rdf+xml</ns1:format>
+	<rdf:type rdf:resource="http://purl.org/dc/dcmitype/Dataset"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+	<ns2:downloadURL rdf:resource="http://zenodo.org/record/161719/files/Fungal_Orthology_and_Protein_Domains.rdf"/>
+</rdf:Description>
+
+
+
+<rdf:Description
+		 xmlns:ns1="http://purl.org/dc/elements/1.1/"
+		 xmlns:ns2="http://purl.org/pav/"
+		 xmlns:ns3="http://rdfs.org/ns/void#"
+		 xmlns:ns4="http://www.ksl.stanford.edu/projects/DAML/ksl-daml-desc.daml#"
+		 xmlns:ns5="http://www.w3.org/ns/dcat#"
+		 xmlns:ns6="http://xmlns.com/foaf/0.1/"
+		 rdf:about="http://zenodo.org/record/161719/files/RNAME_Accessor_Metarecords.rdf#6d16db86-0ab9-11e6-b512-3e1d05defe78">
+	<ns1:creator rdf:resource="http://wilkinsonlab.info/"/>
+	
+	<ns1:issued>2016-03-30</ns1:issued>
+	<ns5:modified>2016-03-30</ns5:modified>
+	
+	<ns1:language rdf:resource="http://lexvo.org/id/iso639-3/eng"/>
+	<ns1:license rdf:resource="http://purl.org/NET/rdflicense/cc-by3.0us"/>
+	
+	<ns1:title>"Mediator complex (21-22 subunits 22 conserved in humans)"</ns1:title>
+	<ns2:authoredBy rdf:resource="http://orcid.org/0000-0002-6019-7306"/>
+	<ns2:authoredBy rdf:resource="http://orcid.org/0000-0002-2434-0240"/>
+	<ns3:inDataset rdf:resource="http://dx.doi.org/10.5281/zenodo.161719"/>
+	<ns4:has-Principle-Investigator>Dr. Mark Wilkinson</ns4:has-Principle-Investigator>
+	<ns4:has-Technical-Lead>Alejandro Rodriguez Iglesias</ns4:has-Technical-Lead>
+	<ns5:contactPoint rdf:resource="http://biordf.org/DataFairPort/MiscRDF/Wilkinson.rdf"/>
+	<ns5:description>Complexes involved in RNA Metabolism in fungi.  Dataset includes the complexes, their consituent proteins, the orthologues of those proteins in a range of fungal species, and the domain composition of those proteins</ns5:description>
+	
+	<ns5:distribution rdf:resource="http://zenodo.org/record/161719/files/Fungal_Orthology_and_Protein_Domains.rdf"/>
+	<ns5:distribution rdf:resource="https://zenodo.org/record/47641/files/final.Mediator_complex.png"/>
+
+	<ns5:identifier rdf:resource="http://zenodo.org/record/161719/files/Fungal_Orthology_and_Protein_Domains.n3#6d16db86-0ab9-11e6-b512-3e1d05defe78"/>
+	
+	<ns5:keyword>FAIR Data</ns5:keyword>
+	<ns5:keyword>RNA Metabolism</ns5:keyword>
+	<ns5:keyword>Evolution</ns5:keyword>
+	<ns5:keyword>Protein domains</ns5:keyword>
+	
+	<ns5:landingPage rdf:resource="http://www.wilkinsonlab.info/lab/node/27"/>
+	
+	<ns5:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/en"/>
+	<ns5:publisher rdf:resource="http://wilkinsonlab.info"/>
+	<ns5:publisher>Wilkinson Laboratory of Biological Informatics, UPM</ns5:publisher>
+	<ns6:page rdf:resource="http://dx.doi.org/10.5281/zenodo.161719"/>
+</rdf:Description>
+
+
+<rdf:Description xmlns:ns1="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://www.w3.org/ns/dcat#" rdf:about="https://zenodo.org/record/47641/files/final.Mediator_complex.png">
+	<ns1:format>image/png</ns1:format>
+	<rdf:type rdf:resource="http://purl.org/dc/dcmitype/Dataset"/>
+	<rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+	<ns2:downloadURL rdf:resource="https://zenodo.org/record/47641/files/final.Mediator_complex.png"/>
+</rdf:Description>
+<rdf:Description xmlns:ns1="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://www.w3.org/ns/dcat#" rdf:about="http://zenodo.org/record/161719/files/Fungal_Orthology_and_Protein_Domains.rdf">
+	<ns1:format>application/rdf+xml</ns1:format>
+	<rdf:type rdf:resource="http://purl.org/dc/dcmitype/Dataset"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+	<ns2:downloadURL rdf:resource="http://zenodo.org/record/161719/files/Fungal_Orthology_and_Protein_Domains.rdf"/>
+</rdf:Description>
+
+
+
+<rdf:Description
+		 xmlns:ns1="http://purl.org/dc/elements/1.1/"
+		 xmlns:ns2="http://purl.org/pav/"
+		 xmlns:ns3="http://rdfs.org/ns/void#"
+		 xmlns:ns4="http://www.ksl.stanford.edu/projects/DAML/ksl-daml-desc.daml#"
+		 xmlns:ns5="http://www.w3.org/ns/dcat#"
+		 xmlns:ns6="http://xmlns.com/foaf/0.1/"
+		 rdf:about="http://zenodo.org/record/161719/files/RNAME_Accessor_Metarecords.rdf#6d16e7ac-0ab9-11e6-b512-3e1d05defe78">
+	<ns1:creator rdf:resource="http://wilkinsonlab.info/"/>
+	
+	<ns1:issued>2016-03-30</ns1:issued>
+	<ns5:modified>2016-03-30</ns5:modified>
+	
+	<ns1:language rdf:resource="http://lexvo.org/id/iso639-3/eng"/>
+	<ns1:license rdf:resource="http://purl.org/NET/rdflicense/cc-by3.0us"/>
+	
+	<ns1:title>"RNA polymerase II regulators"</ns1:title>
+	<ns2:authoredBy rdf:resource="http://orcid.org/0000-0002-6019-7306"/>
+	<ns2:authoredBy rdf:resource="http://orcid.org/0000-0002-2434-0240"/>
+	<ns3:inDataset rdf:resource="http://dx.doi.org/10.5281/zenodo.161719"/>
+	<ns4:has-Principle-Investigator>Dr. Mark Wilkinson</ns4:has-Principle-Investigator>
+	<ns4:has-Technical-Lead>Alejandro Rodriguez Iglesias</ns4:has-Technical-Lead>
+	<ns5:contactPoint rdf:resource="http://biordf.org/DataFairPort/MiscRDF/Wilkinson.rdf"/>
+	<ns5:description>Complexes involved in RNA Metabolism in fungi.  Dataset includes the complexes, their consituent proteins, the orthologues of those proteins in a range of fungal species, and the domain composition of those proteins</ns5:description>
+	
+	<ns5:distribution rdf:resource="http://zenodo.org/record/161719/files/Fungal_Orthology_and_Protein_Domains.rdf"/>
+	<ns5:distribution rdf:resource="https://zenodo.org/record/47641/files/final.RNA_polymerase_II_regulators.png"/>
+
+	<ns5:identifier rdf:resource="http://zenodo.org/record/161719/files/Fungal_Orthology_and_Protein_Domains.n3#6d16e7ac-0ab9-11e6-b512-3e1d05defe78"/>
+	
+	<ns5:keyword>FAIR Data</ns5:keyword>
+	<ns5:keyword>RNA Metabolism</ns5:keyword>
+	<ns5:keyword>Evolution</ns5:keyword>
+	<ns5:keyword>Protein domains</ns5:keyword>
+	
+	<ns5:landingPage rdf:resource="http://www.wilkinsonlab.info/lab/node/27"/>
+	
+	<ns5:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/en"/>
+	<ns5:publisher rdf:resource="http://wilkinsonlab.info"/>
+	<ns5:publisher>Wilkinson Laboratory of Biological Informatics, UPM</ns5:publisher>
+	<ns6:page rdf:resource="http://dx.doi.org/10.5281/zenodo.161719"/>
+</rdf:Description>
+
+
+<rdf:Description xmlns:ns1="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://www.w3.org/ns/dcat#" rdf:about="https://zenodo.org/record/47641/files/final.RNA_polymerase_II_regulators.png">
+	<ns1:format>image/png</ns1:format>
+	<rdf:type rdf:resource="http://purl.org/dc/dcmitype/Dataset"/>
+	<rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+	<ns2:downloadURL rdf:resource="https://zenodo.org/record/47641/files/final.RNA_polymerase_II_regulators.png"/>
+</rdf:Description>
+<rdf:Description xmlns:ns1="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://www.w3.org/ns/dcat#" rdf:about="http://zenodo.org/record/161719/files/Fungal_Orthology_and_Protein_Domains.rdf">
+	<ns1:format>application/rdf+xml</ns1:format>
+	<rdf:type rdf:resource="http://purl.org/dc/dcmitype/Dataset"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+	<ns2:downloadURL rdf:resource="http://zenodo.org/record/161719/files/Fungal_Orthology_and_Protein_Domains.rdf"/>
+</rdf:Description>
+
+
+
+<rdf:Description
+		 xmlns:ns1="http://purl.org/dc/elements/1.1/"
+		 xmlns:ns2="http://purl.org/pav/"
+		 xmlns:ns3="http://rdfs.org/ns/void#"
+		 xmlns:ns4="http://www.ksl.stanford.edu/projects/DAML/ksl-daml-desc.daml#"
+		 xmlns:ns5="http://www.w3.org/ns/dcat#"
+		 xmlns:ns6="http://xmlns.com/foaf/0.1/"
+		 rdf:about="http://zenodo.org/record/161719/files/RNAME_Accessor_Metarecords.rdf#6d16d852-0ab9-11e6-b512-3e1d05defe78">
+	<ns1:creator rdf:resource="http://wilkinsonlab.info/"/>
+	
+	<ns1:issued>2016-03-30</ns1:issued>
+	<ns5:modified>2016-03-30</ns5:modified>
+	
+	<ns1:language rdf:resource="http://lexvo.org/id/iso639-3/eng"/>
+	<ns1:license rdf:resource="http://purl.org/NET/rdflicense/cc-by3.0us"/>
+	
+	<ns1:title>"Transcription Factor II holoenzyme regulators"</ns1:title>
+	<ns2:authoredBy rdf:resource="http://orcid.org/0000-0002-6019-7306"/>
+	<ns2:authoredBy rdf:resource="http://orcid.org/0000-0002-2434-0240"/>
+	<ns3:inDataset rdf:resource="http://dx.doi.org/10.5281/zenodo.161719"/>
+	<ns4:has-Principle-Investigator>Dr. Mark Wilkinson</ns4:has-Principle-Investigator>
+	<ns4:has-Technical-Lead>Alejandro Rodriguez Iglesias</ns4:has-Technical-Lead>
+	<ns5:contactPoint rdf:resource="http://biordf.org/DataFairPort/MiscRDF/Wilkinson.rdf"/>
+	<ns5:description>Complexes involved in RNA Metabolism in fungi.  Dataset includes the complexes, their consituent proteins, the orthologues of those proteins in a range of fungal species, and the domain composition of those proteins</ns5:description>
+	
+	<ns5:distribution rdf:resource="http://zenodo.org/record/161719/files/Fungal_Orthology_and_Protein_Domains.rdf"/>
+	<ns5:distribution rdf:resource="https://zenodo.org/record/47641/files/final.Transcription_Factor_II_holoenzyme_regulators.png"/>
+
+	<ns5:identifier rdf:resource="http://zenodo.org/record/161719/files/Fungal_Orthology_and_Protein_Domains.n3#6d16d852-0ab9-11e6-b512-3e1d05defe78"/>
+	
+	<ns5:keyword>FAIR Data</ns5:keyword>
+	<ns5:keyword>RNA Metabolism</ns5:keyword>
+	<ns5:keyword>Evolution</ns5:keyword>
+	<ns5:keyword>Protein domains</ns5:keyword>
+	
+	<ns5:landingPage rdf:resource="http://www.wilkinsonlab.info/lab/node/27"/>
+	
+	<ns5:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/en"/>
+	<ns5:publisher rdf:resource="http://wilkinsonlab.info"/>
+	<ns5:publisher>Wilkinson Laboratory of Biological Informatics, UPM</ns5:publisher>
+	<ns6:page rdf:resource="http://dx.doi.org/10.5281/zenodo.161719"/>
+</rdf:Description>
+
+
+<rdf:Description xmlns:ns1="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://www.w3.org/ns/dcat#" rdf:about="https://zenodo.org/record/47641/files/final.Transcription_Factor_II_holoenzyme_regulators.png">
+	<ns1:format>image/png</ns1:format>
+	<rdf:type rdf:resource="http://purl.org/dc/dcmitype/Dataset"/>
+	<rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+	<ns2:downloadURL rdf:resource="https://zenodo.org/record/47641/files/final.Transcription_Factor_II_holoenzyme_regulators.png"/>
+</rdf:Description>
+<rdf:Description xmlns:ns1="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://www.w3.org/ns/dcat#" rdf:about="http://zenodo.org/record/161719/files/Fungal_Orthology_and_Protein_Domains.rdf">
+	<ns1:format>application/rdf+xml</ns1:format>
+	<rdf:type rdf:resource="http://purl.org/dc/dcmitype/Dataset"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+	<ns2:downloadURL rdf:resource="http://zenodo.org/record/161719/files/Fungal_Orthology_and_Protein_Domains.rdf"/>
+</rdf:Description>
+
+
+
+<rdf:Description
+		 xmlns:ns1="http://purl.org/dc/elements/1.1/"
+		 xmlns:ns2="http://purl.org/pav/"
+		 xmlns:ns3="http://rdfs.org/ns/void#"
+		 xmlns:ns4="http://www.ksl.stanford.edu/projects/DAML/ksl-daml-desc.daml#"
+		 xmlns:ns5="http://www.w3.org/ns/dcat#"
+		 xmlns:ns6="http://xmlns.com/foaf/0.1/"
+		 rdf:about="http://zenodo.org/record/161719/files/RNAME_Accessor_Metarecords.rdf#6d16f24c-0ab9-11e6-b512-3e1d05defe78">
+	<ns1:creator rdf:resource="http://wilkinsonlab.info/"/>
+	
+	<ns1:issued>2016-03-30</ns1:issued>
+	<ns5:modified>2016-03-30</ns5:modified>
+	
+	<ns1:language rdf:resource="http://lexvo.org/id/iso639-3/eng"/>
+	<ns1:license rdf:resource="http://purl.org/NET/rdflicense/cc-by3.0us"/>
+	
+	<ns1:title>"RPD3 histone deacetylase complex"</ns1:title>
+	<ns2:authoredBy rdf:resource="http://orcid.org/0000-0002-6019-7306"/>
+	<ns2:authoredBy rdf:resource="http://orcid.org/0000-0002-2434-0240"/>
+	<ns3:inDataset rdf:resource="http://dx.doi.org/10.5281/zenodo.161719"/>
+	<ns4:has-Principle-Investigator>Dr. Mark Wilkinson</ns4:has-Principle-Investigator>
+	<ns4:has-Technical-Lead>Alejandro Rodriguez Iglesias</ns4:has-Technical-Lead>
+	<ns5:contactPoint rdf:resource="http://biordf.org/DataFairPort/MiscRDF/Wilkinson.rdf"/>
+	<ns5:description>Complexes involved in RNA Metabolism in fungi.  Dataset includes the complexes, their consituent proteins, the orthologues of those proteins in a range of fungal species, and the domain composition of those proteins</ns5:description>
+	
+	<ns5:distribution rdf:resource="http://zenodo.org/record/161719/files/Fungal_Orthology_and_Protein_Domains.rdf"/>
+	<ns5:distribution rdf:resource="https://zenodo.org/record/47641/files/final.RPD3_histone_deacetylase_complex.png"/>
+
+	<ns5:identifier rdf:resource="http://zenodo.org/record/161719/files/Fungal_Orthology_and_Protein_Domains.n3#6d16f24c-0ab9-11e6-b512-3e1d05defe78"/>
+	
+	<ns5:keyword>FAIR Data</ns5:keyword>
+	<ns5:keyword>RNA Metabolism</ns5:keyword>
+	<ns5:keyword>Evolution</ns5:keyword>
+	<ns5:keyword>Protein domains</ns5:keyword>
+	
+	<ns5:landingPage rdf:resource="http://www.wilkinsonlab.info/lab/node/27"/>
+	
+	<ns5:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/en"/>
+	<ns5:publisher rdf:resource="http://wilkinsonlab.info"/>
+	<ns5:publisher>Wilkinson Laboratory of Biological Informatics, UPM</ns5:publisher>
+	<ns6:page rdf:resource="http://dx.doi.org/10.5281/zenodo.161719"/>
+</rdf:Description>
+
+
+<rdf:Description xmlns:ns1="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://www.w3.org/ns/dcat#" rdf:about="https://zenodo.org/record/47641/files/final.RPD3_histone_deacetylase_complex.png">
+	<ns1:format>image/png</ns1:format>
+	<rdf:type rdf:resource="http://purl.org/dc/dcmitype/Dataset"/>
+	<rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+	<ns2:downloadURL rdf:resource="https://zenodo.org/record/47641/files/final.RPD3_histone_deacetylase_complex.png"/>
+</rdf:Description>
+<rdf:Description xmlns:ns1="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://www.w3.org/ns/dcat#" rdf:about="http://zenodo.org/record/161719/files/Fungal_Orthology_and_Protein_Domains.rdf">
+	<ns1:format>application/rdf+xml</ns1:format>
+	<rdf:type rdf:resource="http://purl.org/dc/dcmitype/Dataset"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+	<ns2:downloadURL rdf:resource="http://zenodo.org/record/161719/files/Fungal_Orthology_and_Protein_Domains.rdf"/>
+</rdf:Description>
+
+
+
+<rdf:Description
+		 xmlns:ns1="http://purl.org/dc/elements/1.1/"
+		 xmlns:ns2="http://purl.org/pav/"
+		 xmlns:ns3="http://rdfs.org/ns/void#"
+		 xmlns:ns4="http://www.ksl.stanford.edu/projects/DAML/ksl-daml-desc.daml#"
+		 xmlns:ns5="http://www.w3.org/ns/dcat#"
+		 xmlns:ns6="http://xmlns.com/foaf/0.1/"
+		 rdf:about="http://zenodo.org/record/161719/files/RNAME_Accessor_Metarecords.rdf#6d170160-0ab9-11e6-b512-3e1d05defe78">
+	<ns1:creator rdf:resource="http://wilkinsonlab.info/"/>
+	
+	<ns1:issued>2016-03-30</ns1:issued>
+	<ns5:modified>2016-03-30</ns5:modified>
+	
+	<ns1:language rdf:resource="http://lexvo.org/id/iso639-3/eng"/>
+	<ns1:license rdf:resource="http://purl.org/NET/rdflicense/cc-by3.0us"/>
+	
+	<ns1:title>"Chromatin remodeller complexes RSC and SWI/SNF"</ns1:title>
+	<ns2:authoredBy rdf:resource="http://orcid.org/0000-0002-6019-7306"/>
+	<ns2:authoredBy rdf:resource="http://orcid.org/0000-0002-2434-0240"/>
+	<ns3:inDataset rdf:resource="http://dx.doi.org/10.5281/zenodo.161719"/>
+	<ns4:has-Principle-Investigator>Dr. Mark Wilkinson</ns4:has-Principle-Investigator>
+	<ns4:has-Technical-Lead>Alejandro Rodriguez Iglesias</ns4:has-Technical-Lead>
+	<ns5:contactPoint rdf:resource="http://biordf.org/DataFairPort/MiscRDF/Wilkinson.rdf"/>
+	<ns5:description>Complexes involved in RNA Metabolism in fungi.  Dataset includes the complexes, their consituent proteins, the orthologues of those proteins in a range of fungal species, and the domain composition of those proteins</ns5:description>
+	
+	<ns5:distribution rdf:resource="http://zenodo.org/record/161719/files/Fungal_Orthology_and_Protein_Domains.rdf"/>
+	<ns5:distribution rdf:resource="https://zenodo.org/record/47641/files/final.Chromatin_remodeller_complexes_RSC_and_SWI.SNF.png"/>
+
+	<ns5:identifier rdf:resource="http://zenodo.org/record/161719/files/Fungal_Orthology_and_Protein_Domains.n3#6d170160-0ab9-11e6-b512-3e1d05defe78"/>
+	
+	<ns5:keyword>FAIR Data</ns5:keyword>
+	<ns5:keyword>RNA Metabolism</ns5:keyword>
+	<ns5:keyword>Evolution</ns5:keyword>
+	<ns5:keyword>Protein domains</ns5:keyword>
+	
+	<ns5:landingPage rdf:resource="http://www.wilkinsonlab.info/lab/node/27"/>
+	
+	<ns5:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/en"/>
+	<ns5:publisher rdf:resource="http://wilkinsonlab.info"/>
+	<ns5:publisher>Wilkinson Laboratory of Biological Informatics, UPM</ns5:publisher>
+	<ns6:page rdf:resource="http://dx.doi.org/10.5281/zenodo.161719"/>
+</rdf:Description>
+
+
+<rdf:Description xmlns:ns1="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://www.w3.org/ns/dcat#" rdf:about="https://zenodo.org/record/47641/files/final.Chromatin_remodeller_complexes_RSC_and_SWI.SNF.png">
+	<ns1:format>image/png</ns1:format>
+	<rdf:type rdf:resource="http://purl.org/dc/dcmitype/Dataset"/>
+	<rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+	<ns2:downloadURL rdf:resource="https://zenodo.org/record/47641/files/final.Chromatin_remodeller_complexes_RSC_and_SWI.SNF.png"/>
+</rdf:Description>
+<rdf:Description xmlns:ns1="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://www.w3.org/ns/dcat#" rdf:about="http://zenodo.org/record/161719/files/Fungal_Orthology_and_Protein_Domains.rdf">
+	<ns1:format>application/rdf+xml</ns1:format>
+	<rdf:type rdf:resource="http://purl.org/dc/dcmitype/Dataset"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+	<ns2:downloadURL rdf:resource="http://zenodo.org/record/161719/files/Fungal_Orthology_and_Protein_Domains.rdf"/>
+</rdf:Description>
+
+
+
+<rdf:Description
+		 xmlns:ns1="http://purl.org/dc/elements/1.1/"
+		 xmlns:ns2="http://purl.org/pav/"
+		 xmlns:ns3="http://rdfs.org/ns/void#"
+		 xmlns:ns4="http://www.ksl.stanford.edu/projects/DAML/ksl-daml-desc.daml#"
+		 xmlns:ns5="http://www.w3.org/ns/dcat#"
+		 xmlns:ns6="http://xmlns.com/foaf/0.1/"
+		 rdf:about="http://zenodo.org/record/161719/files/RNAME_Accessor_Metarecords.rdf#6d16d9ec-0ab9-11e6-b512-3e1d05defe78">
+	<ns1:creator rdf:resource="http://wilkinsonlab.info/"/>
+	
+	<ns1:issued>2016-03-30</ns1:issued>
+	<ns5:modified>2016-03-30</ns5:modified>
+	
+	<ns1:language rdf:resource="http://lexvo.org/id/iso639-3/eng"/>
+	<ns1:license rdf:resource="http://purl.org/NET/rdflicense/cc-by3.0us"/>
+	
+	<ns1:title>"Transcription Factor III holoenzyme"</ns1:title>
+	<ns2:authoredBy rdf:resource="http://orcid.org/0000-0002-6019-7306"/>
+	<ns2:authoredBy rdf:resource="http://orcid.org/0000-0002-2434-0240"/>
+	<ns3:inDataset rdf:resource="http://dx.doi.org/10.5281/zenodo.161719"/>
+	<ns4:has-Principle-Investigator>Dr. Mark Wilkinson</ns4:has-Principle-Investigator>
+	<ns4:has-Technical-Lead>Alejandro Rodriguez Iglesias</ns4:has-Technical-Lead>
+	<ns5:contactPoint rdf:resource="http://biordf.org/DataFairPort/MiscRDF/Wilkinson.rdf"/>
+	<ns5:description>Complexes involved in RNA Metabolism in fungi.  Dataset includes the complexes, their consituent proteins, the orthologues of those proteins in a range of fungal species, and the domain composition of those proteins</ns5:description>
+	
+	<ns5:distribution rdf:resource="http://zenodo.org/record/161719/files/Fungal_Orthology_and_Protein_Domains.rdf"/>
+	<ns5:distribution rdf:resource="https://zenodo.org/record/47641/files/final.Transcription_Factor_III_holoenzyme.png"/>
+
+	<ns5:identifier rdf:resource="http://zenodo.org/record/161719/files/Fungal_Orthology_and_Protein_Domains.n3#6d16d9ec-0ab9-11e6-b512-3e1d05defe78"/>
+	
+	<ns5:keyword>FAIR Data</ns5:keyword>
+	<ns5:keyword>RNA Metabolism</ns5:keyword>
+	<ns5:keyword>Evolution</ns5:keyword>
+	<ns5:keyword>Protein domains</ns5:keyword>
+	
+	<ns5:landingPage rdf:resource="http://www.wilkinsonlab.info/lab/node/27"/>
+	
+	<ns5:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/en"/>
+	<ns5:publisher rdf:resource="http://wilkinsonlab.info"/>
+	<ns5:publisher>Wilkinson Laboratory of Biological Informatics, UPM</ns5:publisher>
+	<ns6:page rdf:resource="http://dx.doi.org/10.5281/zenodo.161719"/>
+</rdf:Description>
+
+
+<rdf:Description xmlns:ns1="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://www.w3.org/ns/dcat#" rdf:about="https://zenodo.org/record/47641/files/final.Transcription_Factor_III_holoenzyme.png">
+	<ns1:format>image/png</ns1:format>
+	<rdf:type rdf:resource="http://purl.org/dc/dcmitype/Dataset"/>
+	<rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+	<ns2:downloadURL rdf:resource="https://zenodo.org/record/47641/files/final.Transcription_Factor_III_holoenzyme.png"/>
+</rdf:Description>
+<rdf:Description xmlns:ns1="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://www.w3.org/ns/dcat#" rdf:about="http://zenodo.org/record/161719/files/Fungal_Orthology_and_Protein_Domains.rdf">
+	<ns1:format>application/rdf+xml</ns1:format>
+	<rdf:type rdf:resource="http://purl.org/dc/dcmitype/Dataset"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+	<ns2:downloadURL rdf:resource="http://zenodo.org/record/161719/files/Fungal_Orthology_and_Protein_Domains.rdf"/>
+</rdf:Description>
+
+
+
+<rdf:Description
+		 xmlns:ns1="http://purl.org/dc/elements/1.1/"
+		 xmlns:ns2="http://purl.org/pav/"
+		 xmlns:ns3="http://rdfs.org/ns/void#"
+		 xmlns:ns4="http://www.ksl.stanford.edu/projects/DAML/ksl-daml-desc.daml#"
+		 xmlns:ns5="http://www.w3.org/ns/dcat#"
+		 xmlns:ns6="http://xmlns.com/foaf/0.1/"
+		 rdf:about="http://zenodo.org/record/161719/files/RNAME_Accessor_Metarecords.rdf#6d16f3d2-0ab9-11e6-b512-3e1d05defe78">
+	<ns1:creator rdf:resource="http://wilkinsonlab.info/"/>
+	
+	<ns1:issued>2016-03-30</ns1:issued>
+	<ns5:modified>2016-03-30</ns5:modified>
+	
+	<ns1:language rdf:resource="http://lexvo.org/id/iso639-3/eng"/>
+	<ns1:license rdf:resource="http://purl.org/NET/rdflicense/cc-by3.0us"/>
+	
+	<ns1:title>"HDA1 histone deacetylase complex"</ns1:title>
+	<ns2:authoredBy rdf:resource="http://orcid.org/0000-0002-6019-7306"/>
+	<ns2:authoredBy rdf:resource="http://orcid.org/0000-0002-2434-0240"/>
+	<ns3:inDataset rdf:resource="http://dx.doi.org/10.5281/zenodo.161719"/>
+	<ns4:has-Principle-Investigator>Dr. Mark Wilkinson</ns4:has-Principle-Investigator>
+	<ns4:has-Technical-Lead>Alejandro Rodriguez Iglesias</ns4:has-Technical-Lead>
+	<ns5:contactPoint rdf:resource="http://biordf.org/DataFairPort/MiscRDF/Wilkinson.rdf"/>
+	<ns5:description>Complexes involved in RNA Metabolism in fungi.  Dataset includes the complexes, their consituent proteins, the orthologues of those proteins in a range of fungal species, and the domain composition of those proteins</ns5:description>
+	
+	<ns5:distribution rdf:resource="http://zenodo.org/record/161719/files/Fungal_Orthology_and_Protein_Domains.rdf"/>
+	<ns5:distribution rdf:resource="https://zenodo.org/record/47641/files/final.HDA1_histone_deacetylase_complex.png"/>
+
+	<ns5:identifier rdf:resource="http://zenodo.org/record/161719/files/Fungal_Orthology_and_Protein_Domains.n3#6d16f3d2-0ab9-11e6-b512-3e1d05defe78"/>
+	
+	<ns5:keyword>FAIR Data</ns5:keyword>
+	<ns5:keyword>RNA Metabolism</ns5:keyword>
+	<ns5:keyword>Evolution</ns5:keyword>
+	<ns5:keyword>Protein domains</ns5:keyword>
+	
+	<ns5:landingPage rdf:resource="http://www.wilkinsonlab.info/lab/node/27"/>
+	
+	<ns5:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/en"/>
+	<ns5:publisher rdf:resource="http://wilkinsonlab.info"/>
+	<ns5:publisher>Wilkinson Laboratory of Biological Informatics, UPM</ns5:publisher>
+	<ns6:page rdf:resource="http://dx.doi.org/10.5281/zenodo.161719"/>
+</rdf:Description>
+
+
+<rdf:Description xmlns:ns1="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://www.w3.org/ns/dcat#" rdf:about="https://zenodo.org/record/47641/files/final.HDA1_histone_deacetylase_complex.png">
+	<ns1:format>image/png</ns1:format>
+	<rdf:type rdf:resource="http://purl.org/dc/dcmitype/Dataset"/>
+	<rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+	<ns2:downloadURL rdf:resource="https://zenodo.org/record/47641/files/final.HDA1_histone_deacetylase_complex.png"/>
+</rdf:Description>
+<rdf:Description xmlns:ns1="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://www.w3.org/ns/dcat#" rdf:about="http://zenodo.org/record/161719/files/Fungal_Orthology_and_Protein_Domains.rdf">
+	<ns1:format>application/rdf+xml</ns1:format>
+	<rdf:type rdf:resource="http://purl.org/dc/dcmitype/Dataset"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+	<ns2:downloadURL rdf:resource="http://zenodo.org/record/161719/files/Fungal_Orthology_and_Protein_Domains.rdf"/>
+</rdf:Description>
+
+
+
+<rdf:Description
+		 xmlns:ns1="http://purl.org/dc/elements/1.1/"
+		 xmlns:ns2="http://purl.org/pav/"
+		 xmlns:ns3="http://rdfs.org/ns/void#"
+		 xmlns:ns4="http://www.ksl.stanford.edu/projects/DAML/ksl-daml-desc.daml#"
+		 xmlns:ns5="http://www.w3.org/ns/dcat#"
+		 xmlns:ns6="http://xmlns.com/foaf/0.1/"
+		 rdf:about="http://zenodo.org/record/161719/files/RNAME_Accessor_Metarecords.rdf#6d16eb08-0ab9-11e6-b512-3e1d05defe78">
+	<ns1:creator rdf:resource="http://wilkinsonlab.info/"/>
+	
+	<ns1:issued>2016-03-30</ns1:issued>
+	<ns5:modified>2016-03-30</ns5:modified>
+	
+	<ns1:language rdf:resource="http://lexvo.org/id/iso639-3/eng"/>
+	<ns1:license rdf:resource="http://purl.org/NET/rdflicense/cc-by3.0us"/>
+	
+	<ns1:title>"SAGA complex"</ns1:title>
+	<ns2:authoredBy rdf:resource="http://orcid.org/0000-0002-6019-7306"/>
+	<ns2:authoredBy rdf:resource="http://orcid.org/0000-0002-2434-0240"/>
+	<ns3:inDataset rdf:resource="http://dx.doi.org/10.5281/zenodo.161719"/>
+	<ns4:has-Principle-Investigator>Dr. Mark Wilkinson</ns4:has-Principle-Investigator>
+	<ns4:has-Technical-Lead>Alejandro Rodriguez Iglesias</ns4:has-Technical-Lead>
+	<ns5:contactPoint rdf:resource="http://biordf.org/DataFairPort/MiscRDF/Wilkinson.rdf"/>
+	<ns5:description>Complexes involved in RNA Metabolism in fungi.  Dataset includes the complexes, their consituent proteins, the orthologues of those proteins in a range of fungal species, and the domain composition of those proteins</ns5:description>
+	
+	<ns5:distribution rdf:resource="http://zenodo.org/record/161719/files/Fungal_Orthology_and_Protein_Domains.rdf"/>
+	<ns5:distribution rdf:resource="https://zenodo.org/record/47641/files/final.SAGA_complex.png"/>
+
+	<ns5:identifier rdf:resource="http://zenodo.org/record/161719/files/Fungal_Orthology_and_Protein_Domains.n3#6d16eb08-0ab9-11e6-b512-3e1d05defe78"/>
+	
+	<ns5:keyword>FAIR Data</ns5:keyword>
+	<ns5:keyword>RNA Metabolism</ns5:keyword>
+	<ns5:keyword>Evolution</ns5:keyword>
+	<ns5:keyword>Protein domains</ns5:keyword>
+	
+	<ns5:landingPage rdf:resource="http://www.wilkinsonlab.info/lab/node/27"/>
+	
+	<ns5:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/en"/>
+	<ns5:publisher rdf:resource="http://wilkinsonlab.info"/>
+	<ns5:publisher>Wilkinson Laboratory of Biological Informatics, UPM</ns5:publisher>
+	<ns6:page rdf:resource="http://dx.doi.org/10.5281/zenodo.161719"/>
+</rdf:Description>
+
+
+<rdf:Description xmlns:ns1="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://www.w3.org/ns/dcat#" rdf:about="https://zenodo.org/record/47641/files/final.SAGA_complex.png">
+	<ns1:format>image/png</ns1:format>
+	<rdf:type rdf:resource="http://purl.org/dc/dcmitype/Dataset"/>
+	<rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+	<ns2:downloadURL rdf:resource="https://zenodo.org/record/47641/files/final.SAGA_complex.png"/>
+</rdf:Description>
+<rdf:Description xmlns:ns1="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://www.w3.org/ns/dcat#" rdf:about="http://zenodo.org/record/161719/files/Fungal_Orthology_and_Protein_Domains.rdf">
+	<ns1:format>application/rdf+xml</ns1:format>
+	<rdf:type rdf:resource="http://purl.org/dc/dcmitype/Dataset"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+	<ns2:downloadURL rdf:resource="http://zenodo.org/record/161719/files/Fungal_Orthology_and_Protein_Domains.rdf"/>
+</rdf:Description>
+
+
+</rdf:RDF>

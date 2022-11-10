@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:Description
+		 xmlns:ns1="http://purl.org/dc/elements/1.1/"
+		 xmlns:ns2="http://purl.org/pav/"
+		 xmlns:ns3="http://rdfs.org/ns/void#"
+		 xmlns:ns4="http://www.ksl.stanford.edu/projects/DAML/ksl-daml-desc.daml#"
+		 xmlns:ns5="http://www.w3.org/ns/dcat#"
+		 xmlns:ns6="http://www.w3.org/ns/ldp#"
+		 xmlns:ns7="http://xmlns.com/foaf/0.1/"
+		 rdf:about="http://zenodo.org/record/161719/files/RNAME_Accessor.rdf">
+	
+	<ns1:creator rdf:resource="http://wilkinsonlab.info/"/>
+	<ns1:issued>2016-04-27</ns1:issued>
+	<ns1:modified>2016-04-27</ns1:modified>
+	<ns1:language rdf:resource="http://lexvo.org/id/iso639-3/eng"/>
+	<ns1:title>RNAME Project FAIR Metadata</ns1:title>
+	<ns2:authoredBy rdf:resource="http://orcid.org/0000-0002-6019-7306"/>
+	<ns2:authoredBy rdf:resource="http://orcid.org/0000-0002-2434-0240"/>
+	<ns3:entities>22</ns3:entities>
+	<ns4:has-Principle-Investigator>Dr. Mark Wilkinson</ns4:has-Principle-Investigator>
+	<ns4:has-Technical-Lead>Alejandro Rodriguez Iglesias</ns4:has-Technical-Lead>
+	<rdf:type rdf:resource="http://purl.org/dc/dcmitype/Dataset"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/ldp#BasicContainer"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/prov#Collection"/>
+	<ns5:contactPoint rdf:resource="http://biordf.org/DataFairPort/MiscRDF/Wilkinson.rdf"/>
+	<ns5:description>Datasets related to orthology and protein domain preservation in RNA Processing complexes throughout the fungal kingdom</ns5:description>
+	<ns5:identifier rdf:resource="http://dx.doi.org/10.5281/zenodo.161719"/>
+	<ns5:keyword>FAIR Data</ns5:keyword>
+	<ns5:keyword>RNA Metabolism</ns5:keyword>
+	<ns5:keyword>Evolution</ns5:keyword>
+	<ns5:keyword>Protein domains</ns5:keyword>
+	<ns5:keyword>plant/pathogen interactions</ns5:keyword>
+	<ns5:landingPage rdf:resource="http://dx.doi.org/10.5281/zenodo.161719"/>
+	<ns5:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/en"/>
+	<ns1:license rdf:resource="http://purl.org/NET/rdflicense/cc-by3.0us"/>
+	<ns5:publisher rdf:resource="http://wilkinsonlab.info/"/>
+	<ns5:publisher>Wilkinson Laboratory of Biological Informatics, UPM</ns5:publisher>
+	<ns5:theme rdf:resource="http://zenodo.org/record/161719/files/RNAME_concept_scheme.rdf"/>
+
+	
+	
+	<!--  these are copy/pasted from the output of the CreateAccessorRecordMetadata.pl script .-->
+<ns6:contains rdf:resource='http://zenodo.org/record/161719/files/RNAME_Accessor_Metarecords.rdf#6d16fa9e-0ab9-11e6-b512-3e1d05defe78'/>
+<ns6:contains rdf:resource='http://zenodo.org/record/161719/files/RNAME_Accessor_Metarecords.rdf#6d16e3ba-0ab9-11e6-b512-3e1d05defe78'/>
+<ns6:contains rdf:resource='http://zenodo.org/record/161719/files/RNAME_Accessor_Metarecords.rdf#6d16eefa-0ab9-11e6-b512-3e1d05defe78'/>
+<ns6:contains rdf:resource='http://zenodo.org/record/161719/files/RNAME_Accessor_Metarecords.rdf#6d16e982-0ab9-11e6-b512-3e1d05defe78'/>
+<ns6:contains rdf:resource='http://zenodo.org/record/161719/files/RNAME_Accessor_Metarecords.rdf#6d16f3d2-0ab9-11e6-b512-3e1d05defe78'/>
+<ns6:contains rdf:resource='http://zenodo.org/record/161719/files/RNAME_Accessor_Metarecords.rdf#6d16fc10-0ab9-11e6-b512-3e1d05defe78'/>
+<ns6:contains rdf:resource='http://zenodo.org/record/161719/files/RNAME_Accessor_Metarecords.rdf#6d16ffda-0ab9-11e6-b512-3e1d05defe78'/>
+<ns6:contains rdf:resource='http://zenodo.org/record/161719/files/RNAME_Accessor_Metarecords.rdf#6d16df14-0ab9-11e6-b512-3e1d05defe78'/>
+<ns6:contains rdf:resource='http://zenodo.org/record/161719/files/RNAME_Accessor_Metarecords.rdf#6d16db86-0ab9-11e6-b512-3e1d05defe78'/>
+<ns6:contains rdf:resource='http://zenodo.org/record/161719/files/RNAME_Accessor_Metarecords.rdf#6d16f774-0ab9-11e6-b512-3e1d05defe78'/>
+<ns6:contains rdf:resource='http://zenodo.org/record/161719/files/RNAME_Accessor_Metarecords.rdf#6d16d622-0ab9-11e6-b512-3e1d05defe78'/>
+<ns6:contains rdf:resource='http://zenodo.org/record/161719/files/RNAME_Accessor_Metarecords.rdf#6d16eb08-0ab9-11e6-b512-3e1d05defe78'/>
+<ns6:contains rdf:resource='http://zenodo.org/record/161719/files/RNAME_Accessor_Metarecords.rdf#6d16d9ec-0ab9-11e6-b512-3e1d05defe78'/>
+<ns6:contains rdf:resource='http://zenodo.org/record/161719/files/RNAME_Accessor_Metarecords.rdf#6d170160-0ab9-11e6-b512-3e1d05defe78'/>
+<ns6:contains rdf:resource='http://zenodo.org/record/161719/files/RNAME_Accessor_Metarecords.rdf#29a25582-0aba-11e6-b512-3e1d05defe78'/>
+<ns6:contains rdf:resource='http://zenodo.org/record/161719/files/RNAME_Accessor_Metarecords.rdf#6d16f24c-0ab9-11e6-b512-3e1d05defe78'/>
+<ns6:contains rdf:resource='http://zenodo.org/record/161719/files/RNAME_Accessor_Metarecords.rdf#6d16e7ac-0ab9-11e6-b512-3e1d05defe78'/>
+<ns6:contains rdf:resource='http://zenodo.org/record/161719/files/RNAME_Accessor_Metarecords.rdf#6d16cede-0ab9-11e6-b512-3e1d05defe78'/>
+<ns6:contains rdf:resource='http://zenodo.org/record/161719/files/RNAME_Accessor_Metarecords.rdf#29a2596a-0aba-11e6-b512-3e1d05defe78'/>
+<ns6:contains rdf:resource='http://zenodo.org/record/161719/files/RNAME_Accessor_Metarecords.rdf#6d16e23e-0ab9-11e6-b512-3e1d05defe78'/>
+<ns6:contains rdf:resource='http://zenodo.org/record/161719/files/RNAME_Accessor_Metarecords.rdf#6d16f90e-0ab9-11e6-b512-3e1d05defe78'/>
+<ns6:contains rdf:resource='http://zenodo.org/record/161719/files/RNAME_Accessor_Metarecords.rdf#6d16d852-0ab9-11e6-b512-3e1d05defe78'/>
+
+
+	
+	
+</rdf:Description>
+</rdf:RDF>

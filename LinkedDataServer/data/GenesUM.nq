@@ -1,0 +1,10 @@
+<https://um.es/data/LDD999333> <http://www.w3.org/2000/01/rdf-schema#label> "GGG2"@en <https://um.es/graph/genes> .
+<https://um.es/data/LDD999333> <http://semanticscience.org/resource/SIO_000673> "GGG2"^^<http://www.w3.org/2001/XMLSchema#string> <https://um.es/graph/genes> .
+<https://um.es/data/LDD773322> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://semanticscience.org/resource/SIO_010035> <https://um.es/graph/genes> .
+<https://um.es/data/LDD012546> <http://www.w3.org/2000/01/rdf-schema#label> "PKD1"@en <https://um.es/graph/genes> .
+<https://um.es/data/LDD012546> <http://semanticscience.org/resource/SIO_000673> "PKD1"^^<http://www.w3.org/2001/XMLSchema#string> <https://um.es/graph/genes> .
+<https://um.es/data/LDD999333> <http://purl.uniprot.org/core/organism> <http://purl.uniprot.org/taxonomy/9606> <https://um.es/graph/genes> .
+<https://um.es/data/LDD012546> <http://purl.uniprot.org/core/organism> <http://purl.uniprot.org/taxonomy/9606> <https://um.es/graph/genes> .
+<https://um.es/data/LDD999333> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://semanticscience.org/resource/SIO_010035> <https://um.es/graph/genes> .
+<https://um.es/data/LDD012546> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://semanticscience.org/resource/SIO_010035> <https://um.es/graph/genes> .
+
