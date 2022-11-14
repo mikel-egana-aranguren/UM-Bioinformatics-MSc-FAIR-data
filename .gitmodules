@@ -1,0 +1,3 @@
+[submodule "LinkedDataServer/trifid"]
+	path = LinkedDataServer/trifid
+	url = https://github.com/zazuko/trifid
