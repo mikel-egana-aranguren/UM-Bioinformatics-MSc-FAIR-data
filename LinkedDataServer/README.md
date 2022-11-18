@@ -18,7 +18,7 @@ This is the setting for Ubuntu 22.04.1 LTS LTS but it should probably work in ot
 
 ## Installation
 
-* Clone this repo, including the Trifid submodule: `git clone --recurse-submodules https://github.com/mikel-egana-aranguren/MSc-UM-2021-2022-FAIR.git`
+* Clone this repo, including the Trifid submodule: `git clone --recurse-submodules https://github.com/mikel-egana-aranguren/UM-Bioinformatics-MSc-FAIR-data.git`
 * To install Trifid, go to `/trifid` and run `npm install`.
 
 ## Configuration
