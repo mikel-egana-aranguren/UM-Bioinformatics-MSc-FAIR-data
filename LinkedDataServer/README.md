@@ -14,12 +14,18 @@ The bundle comprises:
 This is the setting for Ubuntu 22.04.1 LTS LTS but it should probably work in other settings:
 
 * Java. It has been tested with `OpenJDK Runtime Environment (build 18.0.2-ea+9-Ubuntu-222.04)`. Install Java with your favourite method.
-* Node JS. It has been tested with `nodejs (v12.22.9)`. To install Node JS in ubuntu simply run `apt-get update && apt-get install nodejs` (NOTE: in some systems the [nvm installation](https://www.digitalocean.com/community/tutorials/como-instalar-node-js-en-ubuntu-18-04-es) works better).
+* Node JS. It has been tested with `nodejs (v12.22.9)`, to install it you can either:
+  * In ubuntu simply run `apt-get update && apt-get install nodejs`.
+  * [nvm installation](https://www.digitalocean.com/community/tutorials/como-instalar-node-js-en-ubuntu-18-04-es) works better:
+    * `git clone https://github.com/nvm-sh/nvm.git`
+    * In `nvm`, execute `./install.sh`
 
 ## Installation
 
 * Clone this repo, including the Trifid submodule: `git clone --recurse-submodules https://github.com/mikel-egana-aranguren/UM-Bioinformatics-MSc-FAIR-data.git`
 * To install Trifid, go to `/trifid` and run `npm install`.
+
+Or you can pull the docker image: `docker pull ghcr.io/zazuko/trifid`
 
 ## Configuration
 
