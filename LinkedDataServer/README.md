@@ -57,8 +57,9 @@ For example to change the port in which trifid will listen, add the following:
 * Execute Blazegraph at `/blazegraph`: `java -server -Xmx4g -jar blazegraph.jar`. To change the port in which Blazegraph will listen, use `java -server -Xmx4g -Djetty.port=8181 -jar blazegraph.jar` (Also change the port at `sparqlEndpointUrl` in `blazegraph-config.json`).
 * In the "Namespaces" tab, create namespace `um` and activate (click in "use").
 * Load data from file `data/update.ttl` into Blazegraph at `http://localhost:9999/`, in the `UPDATE` tab.
-* Exec trifid at `/trifid` (Note that the configuration is the already defined file, in the directory above): `./server.js --config=../blazegraph-config.json`.
+* Exec trifid at `/trifid` (Note that the configuration is the already defined file, in the directory above): `./server.js --config=../blazegraph-config.json`. Or, if you use Docker: `docker run -p 3031:8080 -e "SPARQL_ENDPOINT_URL=http://dayhoff.inf.um.es:3030/blazegraph/namespace/um/sparql" -e "DATASET_BASE_URL=https://um.es/" ghcr.io/zazuko/trifid`
 * To test content negotiation, try `curl --header "Accept: text/turtle" http://localhost:8080/data/mikel`. Some data should be returned.
 * To test the web frotend go to `http://localhost:8080/data/mikel` with the browser and the following should appear:
 
 ![trifid](trifid.png "trifid")
+
