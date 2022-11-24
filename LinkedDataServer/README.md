@@ -23,9 +23,7 @@ This is the setting for Ubuntu 22.04.1 LTS LTS but it should probably work in ot
 ## Installation
 
 * Clone this repo, including the Trifid submodule: `git clone --recurse-submodules https://github.com/mikel-egana-aranguren/UM-Bioinformatics-MSc-FAIR-data.git`
-* To install Trifid, go to `/trifid` and run `npm install`.
-
-Or you can pull the docker image: `docker pull ghcr.io/zazuko/trifid`
+* To install Trifid, go to `/trifid` and run `npm install`, or you can pull the docker image: `docker pull ghcr.io/zazuko/trifid`
 
 ## Configuration
 
