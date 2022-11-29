@@ -23,7 +23,7 @@
         <p>Mikel Egaña Aranguren</p>
         <p><a href="https://mikel-egana-aranguren.github.io/">mikel-egana-aranguren.github.io</a></p>
         <p><a href="mailto:mikel.egana@ehu.eus">mikel.egana@ehu.eus</a></p>
-        <img src="pictures/ehu.png" alt="UPV/EHU ingenieros San Mames" height="25%" border="1px solid #555">
+        <img src="pictures/ehu.png" alt="UPV/EHU ingenieros San Mames" height="25%" style="border: 1px solid #555;">
     </section>
 
     <section class="slide" id="cover">
@@ -75,7 +75,7 @@ UM-Bioinformatics-MSc-FAIR-data.git
     <section class="slide">
         <h2>Introducción</h2>
         <p>80% del tiempo buscando, filtrando, masajeando e integrando datos</p>
-        <img src="pictures/forbes.com2016_03_Time-1200x511.jpg" alt="FORBES baja calidad de datos publicados" width="70%" border="1px solid #555">
+        <img src="pictures/forbes.com2016_03_Time-1200x511.jpg" alt="FORBES baja calidad de datos publicados" width="70%" style="border: 1px solid #555;">
         <p style="text-align:right;font-size:30%;"><a href="https://labur.eus/Ur8rG">"Cleaning Big Data: Most Time-Consuming, Least Enjoyable Data Science Task, Survey Says" [FORBES, 2020-11-19]</a></p>
     </section>
 
@@ -101,13 +101,12 @@ UM-Bioinformatics-MSc-FAIR-data.git
 
     <section class="slide">
         <h2>Introducción</h2>
-        <p>FAIR como solución</p>
+        <p>Principios FAIR para una mejor publicación de <b>(meta)datos</b></p>
         <p><a href="../papers/sdata201618.pdf">Wilkinson, M., Dumontier, M., Aalbersberg, I. et al. The FAIR Guiding Principles for scientific data management and stewardship. Sci Data 3, 160018 (2016)</a></p>
     </section>
 
     <section class="slide">
         <h2>Introducción</h2>
-        <p>FAIR como solución</p>
         <p>Cada vez más agencias gubernamentales exigen un DMP (Data Management Plan) basado en FAIR para financiar investigación</p>
         <p>Grandes empresas como Novartis, Bayer, etc. usan principios FAIR para publicación interna de datos</p>
     </section>
@@ -167,7 +166,10 @@ UM-Bioinformatics-MSc-FAIR-data.git
 
     <section class="slide">
         <h2>Globally unique</h2>
-        <p>Dominios (€), registros, algoritmos (e.g. UUID), etc.</p>
+        <p>Dominios como um.es (€) </p>
+        <p>Registros</p>
+        <p>Algoritmos (<a href="https://en.wikipedia.org/wiki/Universally_unique_identifier">UUID</a>)</p>
+        <p>etc.</p>
     </section>
 
     <section class="slide">
@@ -191,10 +193,10 @@ UM-Bioinformatics-MSc-FAIR-data.git
     <section class="slide">
         <h2>F1. Ejemplos</h2>
         <ul>
-            <li>https://orcid.org/0000-0001-8888-635X</li>
-            <li><b>doi</b>:10.4121/uuid:5146dd06-98e4-426c-9ae5-dc8fa65c549f</li>
-            <li>http://www.uniprot.org/uniprot/P98161</li>
-            <li>http://omim.org/entry/173900</li>
+            <li><a href="https://orcid.org/0000-0001-8888-635X">https://orcid.org/0000-0001-8888-635X</a></li>
+            <li><b>doi</b>:10.4121/uuid:5146dd06-98e4-426c-9ae5-dc8fa65c549f - <a href="https://doi.org/10.4121/UUID:5146DD06-98E4-426C-9AE5-DC8FA65C549F">https://doi.org/10.4121/UUID:5146DD06-98E4-426C-9AE5-DC8FA65C549F</a></li>
+            <li><a href="http://www.uniprot.org/uniprot/P98161">http://www.uniprot.org/uniprot/P98161</a></li>
+            <li><a href="http://omim.org/entry/173900">http://omim.org/entry/173900</a></li>
         </ul>
     </section>
 
@@ -237,8 +239,7 @@ UM-Bioinformatics-MSc-FAIR-data.git
     <section class="slide">
         <h2>Indexación</h2>  
         <p>Google indexa de manera "básica" ...</p> 
-        <p>... pero cada vez menos, gracias a <a href="https://schema.org/">Schema</a> (Ontología muy ligera para describir datos en la web) y <a href="https://www.w3.org/TR/json-ld11/">JSON-LD</a></p>
-        <p><a href="https://bioschemas.org/">Bioschemas</a> (?)</p>
+        <p>... pero cada vez menos, gracias a <a href="https://schema.org/">Schema</a> (Ontología muy ligera para describir datos en la web) y <a href="https://www.w3.org/TR/json-ld11/">JSON-LD</a>: <a href="https://bioschemas.org/">Bioschemas</a></p>
         <p>Hay que intentar publicar buenos metadatos para una indexación adecuada (por Google o cualquier agente que <i>entienda</i> las ontologías que usamos)</p>
     </section>
 
@@ -249,19 +250,18 @@ UM-Bioinformatics-MSc-FAIR-data.git
 
     <section class="slide">
         <h2>A1. (Meta)data are retrievable by their identifier using a standardized communications protocol</h2>
-        <p>Por ejemplo HTTPS</p>
+        <p>Por ejemplo <a href="https://en.wikipedia.org/wiki/HTTPS">HTTPS</a></p>
     </section>
 
     <section class="slide">
         <h2>A1.1 The protocol is open, free, and universally implementable</h2>
-        <p>Por ejemplo HTTPS</p>
+        <p>Por ejemplo <a href="https://en.wikipedia.org/wiki/HTTPS">HTTPS</a></p>
     </section>
 
     <section class="slide">
         <h2>A1.2 The protocol allows for an authentication and authorization procedure, where necessary</h2>
         <p>Hacer explícitas las condiciones físicas de acceso, para humanos y <b>máquinas</b></p>
         <p>Datos protegidos por propiedad intelectual o privacidad (Ej. datos clínicos): no se publican los datos, sólo (algunos) metadatos y sus condiciones de acceso</p>
-        <p>Por ejemplo HTTPS</p>
     </section>
 
     <section class="slide">
@@ -284,7 +284,7 @@ UM-Bioinformatics-MSc-FAIR-data.git
 
     <section class="slide">
         <h2>I2. (Meta)data use vocabularies that follow FAIR principles</h2>
-        <p>Las ontologías usadas para describir los datos también se tienen que publicar como FAIR</p>
+        <p>Las ontologías usadas para describir los datos también se tienen que publicar siguiendo los principios FAIR</p>
     </section>
 
     <section class="slide">
@@ -313,21 +313,25 @@ UM-Bioinformatics-MSc-FAIR-data.git
 
     <section class="slide">
         <h2>R1. Meta(data) are richly described with a plurality of accurate and relevant attributes</h2>
-        Describe the scope of your data: for what purpose was it generated/collected?
-        Mention any particularities or limitations about the data that other users should be aware of.
-        Specify the date of generation/collection of the data, the lab conditions, who prepared the data, the parameter settings, the name and version of the software used.
+        <p>Describe the scope of your data: for what purpose was it generated/collected?</p>
+        <p>Mention any particularities or limitations about the data that other users should be aware of</p>
     </section>
 
     <section class="slide">
         <h2>R1. Meta(data) are richly described with a plurality of accurate and relevant attributes</h2>
-        Is it raw or processed data?
-        Ensure that all variable names are explained or self-explanatory (i.e., defined in the research field’s controlled vocabulary).
-        Clearly specify and document the version of the archived and/or reused data.
+        <p>Specify the date of generation/collection of the data, the lab conditions, who prepared the data, the parameter settings, the name and version of the software used</p>
+        <p>Is it raw or processed data?</p>
+    </section>
+
+    <section class="slide">
+        <h2>R1. Meta(data) are richly described with a plurality of accurate and relevant attributes</h2>
+        <p>Ensure that all variable names are explained or self-explanatory (i.e., defined in the research field's controlled vocabulary)</p>
+        <p>Clearly specify and document the version of the archived and/or reused data</p>
     </section>
 
     <section class="slide">
         <h2>R1.1. (Meta)data are released with a clear and accessible data usage license</h2>
-        <p>I es sobre interoperabilidad tecnica; R1.1 es sobre interoperabilidad legal</p>
+        <p>I es sobre interoperabilidad técnica; R1.1 es sobre interoperabilidad legal</p>
         <p>Los datos deben tener una licencia clara y explícita para humanos y máquinas</p>
         <p>Por ejemplo, <a href="https://github.com/creativecommons/cc.licenserdf">Creative Commons RDF</a></p>
     </section>
@@ -346,12 +350,12 @@ UM-Bioinformatics-MSc-FAIR-data.git
 
     <section class="slide">
         <h2>Principios FAIR vs implementación</h2>
-        <p><img src="pictures/tecnologia-principios.png" alt="Tecnologia principios" width="80%" border="1px solid #555"></p>
+        <p><img src="pictures/tecnologia-principios.svg" alt="Tecnologia principios" width="80%" style="border: 1px solid #555;"></p>
     </section>
 
     <section class="slide">
         <h2>Principios FAIR: implementación</h2>
-        <p><img src="pictures/FAIR-tecnico-contenido.png" alt="Implementación" width="80%" border="1px solid #555"></p>
+        <p><img src="pictures/FAIR-tecnico-contenido.svg" alt="Implementación" width="80%" style="border: 1px solid #555;"></p>
     </section>
     
     <section class="slide">
@@ -363,7 +367,7 @@ UM-Bioinformatics-MSc-FAIR-data.git
 
     <section class="slide">
         <h2>Madurez FAIR</h2>
-        <p><img src="pictures/Madurez-comunidad.png" alt="Madurez comunidad" width="80%" border="1px solid #555"></p>
+        <p><img src="pictures/Madurez-comunidad.svg" alt="Madurez comunidad" width="80%" style="border: 1px solid #555;"></p>
     </section>
     
     <section class="slide">
@@ -378,7 +382,7 @@ UM-Bioinformatics-MSc-FAIR-data.git
 
     <section class="slide">
         <h2>Recursos sobre FAIR en internet</h2>
-        <p><a href="https://fairplus.github.io/the-fair-cookbook/content/home.html">The FAIR cookbook</a></p>
+        <p><a href="https://fairplus.github.io/the-fair-cookbook/content/home.html">The FAIR cookbook</a> (UM-Bioinformatics-MSc-FAIR-data/the-fair-cookbook)</p>
         <p><a href="https://www.go-fair.org/fair-principles/">GO FAIR</a></p>
         <p><a href="https://fairsharing.org/">FAIR Sharing</a></p>
         <p><a href="https://fair-dom.org/">FAIR-DOM</a></p>
@@ -410,7 +414,7 @@ UM-Bioinformatics-MSc-FAIR-data.git
     <section class="slide">
         <h2>A Generic Workflow for the Data FAIRification Process</h2>
         <p><a href="../papers/566-AnnikaJacobsen-18.pdf">566-AnnikaJacobsen-18.pdf</a></p>
-        <p><img src="pictures/FAIRification.png" alt="FAIRification" width="85%" border="1px solid #555"></p>
+        <p><img src="pictures/FAIRification.svg" alt="FAIRification" width="85%" style="border: 1px solid #555;"></p>
     </section>
 
     <section class="slide">
@@ -434,7 +438,7 @@ UM-Bioinformatics-MSc-FAIR-data.git
     <section class="slide">
         <h2>Conversión a RDF</h2>
         
-        <p><img src="pictures//GenesUM.png" alt="Genes" width="80%" border="1px solid #555"></p>
+        <p><img src="pictures/GenesUM.png" alt="Genes" width="80%" style="border: 1px solid #555;"></p>
 
         <p style="text-align:right;font-size:30%;"><a href="http://www.ldf.fi/service/rdf-grapher">RDF Grapher</a></p>
     </section>
@@ -461,12 +465,12 @@ UM-Bioinformatics-MSc-FAIR-data.git
 
     <section class="slide">
         <h2>Metadatos</h2>
-        <p><img src="pictures/MetadataGenes.png" alt="MetadataGenes" width="85%" border="1px solid #555"></p>
+        <p><img src="pictures/MetadataGenes.png" alt="MetadataGenes" width="85%" style="border: 1px solid #555;"></p>
     </section>
 
     <section class="slide">
         <h2>Datos/Metadatos</h2>
-        <p><img src="pictures/named-graph-metadata.png" alt="Datos Metadatos Named Graph" width="75%" border="1px solid #555"></p>
+        <p><img src="pictures/named-graph-metadata.png" alt="Datos Metadatos Named Graph" width="75%" style="border: 1px solid #555;"></p>
     </section>
 
     <section class="slide">
@@ -483,18 +487,18 @@ UM-Bioinformatics-MSc-FAIR-data.git
 
     <section class="slide">
         <h2>Publicación</h2>
-        <p><p><img src="pictures/LD-FAIR-architecture.png" alt="MetadataGenes" width="90%"></p></p>
+        <p><p><img src="pictures/LD-FAIR-architecture.svg" alt="MetadataGenes" width="90%"></p></p>
     </section>
 
     <section class="slide">
-        <h2>Blazegraph (2.1.6)</h2>
+        <h2>Blazegraph</h2>
         <p>java -server -Xmx4g -jar blazegraph.jar</p>
         <p>(java -server -Xmx4g -Djetty.port=8181 -jar blazegraph.jar)</p>
     </section>
 
     <section class="slide">
         <h2>Blazegraph</h2>
-        <p><img src="pictures/blazegraph-repo-quad.png" alt="Blazegraph repo quad" width="60%" border="1px solid #555"></p>
+        <p><img src="pictures/blazegraph-repo-quad.png" alt="Blazegraph repo quad" width="60%" style="border: 1px solid #555;"></p>
     </section>
 
     <section class="slide">
