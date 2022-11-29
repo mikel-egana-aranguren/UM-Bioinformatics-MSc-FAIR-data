@@ -39,7 +39,7 @@ Trifid provides interfaces to both humans and agents to explore RDF data and dis
 
 In another terminal, go to `LinkedDataServer/trifid` and execute `./server.js --config=../blazegraph-config.json`. Or, if you use Docker:  `docker run -p 3031:8080 -e "SPARQL_ENDPOINT_URL=http://dayhoff.inf.um.es:3030/blazegraph/namespace/um/sparql" -e "DATASET_BASE_URL=https://um.es/" ghcr.io/zazuko/trifid`
 
-Visit http://localhost:8080/data/LDD012546 to make sure it renders data, originating from the following query exceuted against Blazegraph (Trifid does the URI mapping):
+Visit http://localhost:8080/data/LDD012546 to make sure it renders data, originating from the following query executed against Blazegraph (Trifid does the URI mapping):
 
 ```sparql
 DESCRIBE <https://um.es/data/LDD012546>
