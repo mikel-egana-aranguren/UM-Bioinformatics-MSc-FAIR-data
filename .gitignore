@@ -16,7 +16,7 @@
 
 # Package Files #
 #*.jar for blazegraph
-*.war
+#*.war for pubby
 *.nar
 *.ear
 *.zip
