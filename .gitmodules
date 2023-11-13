@@ -1,6 +1,3 @@
-[submodule "LinkedDataServer/trifid"]
-	path = LinkedDataServer/trifid
-	url = https://github.com/zazuko/trifid
 [submodule "the-fair-cookbook"]
 	path = the-fair-cookbook
 	url = git@github.com:FAIRplus/the-fair-cookbook.git
