@@ -6,7 +6,7 @@ Blazegraph provides interfaces to both humans and agents to perform SPARQL queri
 
 Start server at `LinkedDataServer/blazegraph`, execute `java -server -Xmx4g -jar blazegraph.jar` (Or `java -server -Xmx4g -Djetty.port=8181 -jar blazegraph.jar` to change the port).
 
-Go to http://localhost:9999; `NAMESPACES` tab; Create namespace `um` (mode ``quads); `use`.
+Go to http://localhost:9999; `NAMESPACES` tab; Create namespace `um` (mode `quads`); `use`.
 
 Go to `UPDATE` tab. Choose file `GenesUM.nq`, `Update`. Make sure the data has been uploaded with the following query:
 
