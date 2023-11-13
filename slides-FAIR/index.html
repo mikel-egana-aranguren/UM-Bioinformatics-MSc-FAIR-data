@@ -522,11 +522,15 @@ UM-Bioinformatics-MSc-FAIR-data.git
         <p>HTTP URI dereferenciable: cuando se busca una URI, deberia devolver una descripción adecuada del objeto que identifica esa URI</p>
     </section>
 
+    <section class="slide">
+        <h2>Publicar datos en Linked Data</h2>
+        <p><img style="border: 1px solid #555;" src="pictures/publicar_ld.png" alt="Publicar LD" width="70%"></p>
+    </section>
 
-
-
-
-
+    <section class="slide">
+        <h2>Publicar datos en Linked Data</h2>
+        <p><img style="border: 1px solid #555;" src="pictures/publicar_ld_2.png" alt="Publicar LD" width="70%"></p>
+    </section>
 
     <section class="slide">
         <h2>Ejemplo práctico</h2>
@@ -617,8 +621,8 @@ UM-Bioinformatics-MSc-FAIR-data.git
     
     <section class="slide">
         <h2>Publicación</h2>
-        <p>Datos: CSV (Apache), RDF (Blazegraph/Trifid)</p>
-        <p>Metadatos: RDF (Blazegraph/Trifid)</p>
+        <p>Datos: CSV (Apache), RDF (Blazegraph/Pubby)</p>
+        <p>Metadatos: RDF (Blazegraph/Pubby)</p>
         
     </section>
 
@@ -631,8 +635,6 @@ UM-Bioinformatics-MSc-FAIR-data.git
     <section class="slide">
         <h2>Blazegraph</h2>
         <p>java -server -Xmx4g -jar blazegraph.jar</p>
-        <p>(java -server -Xmx4g -Djetty.port=8181 -jar blazegraph.jar)</p>
-        
     </section>
 
     <section class="slide">
@@ -642,19 +644,19 @@ UM-Bioinformatics-MSc-FAIR-data.git
     </section>
 
     <section class="slide">
-        <h2>Trifid</h2>
-        <p>Configurar <a href="https://github.com/zazuko/trifid">Trifid</a> para que haga consultas SPARQL contra http://localhost:9999/blazegraph/namespace/um/sparql</p>
+        <h2>Pubby</h2>
+        <p>Configurar Pubby para que haga consultas SPARQL contra http://IP_NUMBER:9999/blazegraph/namespace/um/sparql</p>
         <p><a href="http://www.w3.org/TR/2013/REC-sparql11-service-description-20130321">SPARQL Service Description</a></p>
         <p><a href="https://www.w3.org/TR/sparql11-protocol/">SPARQL Protocol</a></p>
-        <p>Configuración: <a href="../LinkedDataServer/blazegraph-config.json">blazegraph-config.json</a></p>
+        <p>Configuración: <a href="../LinkedDataServer/pubby/webapps/ROOT/WEB-INF/blazegraph-config.ttl">blazegraph-config.ttl</a></p>
     </section>
 
     <section class="slide">
-        <h2>Trifid</h2>
+        <h2>Pubby</h2>
         <p>URIs:
             <ul>
                 <li>um.es</li>
-                <li>localhost:8080</li>
+                <li>IP:3031</li>
                 </ul></p>
     </section>
 
@@ -673,9 +675,8 @@ UM-Bioinformatics-MSc-FAIR-data.git
 
     <section class="slide">
         <h2>Proyecto a realizar</h2>
-        <p>Reproducir en el servidor Google Cloud este proceso (Documentacion)</p>
+        <p>Reproducir en el servidor Google Cloud este proceso (Con documentacion extra)</p>
         <p>Incluir en Entregable de Explotación semántica de datos (Publicación de datos)</p>
-        
     </section>
 
     <footer class="badge">
