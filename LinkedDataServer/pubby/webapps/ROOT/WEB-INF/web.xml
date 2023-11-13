@@ -9,9 +9,6 @@
   <context-param>
     <param-name>config-file</param-name>
     <param-value>blazegraph-config.ttl</param-value>
-<!--     <param-value>lsld-toy-config-file.ttl</param-value> -->
-<!--     <param-value>books-config-file.ttl</param-value> -->
-<!--     <param-value>config.ttl</param-value> -->
   </context-param>
   
   <servlet>
