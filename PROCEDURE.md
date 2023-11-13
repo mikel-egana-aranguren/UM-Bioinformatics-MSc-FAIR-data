@@ -1,5 +1,11 @@
 # Procedure to publish FAIR Data
 
+## Apache
+
+Install apache with `sudo apt install apache2`.
+
+Copy `GenesUM.csv` to `/var/www/html`: `sudo cp UM-Bioinformatics-MSc-FAIR-data/LinkedDataServer/data/GenesUM.csv /var/www/html/`.
+
 ## Blazegraph
 
 Blazegraph provides interfaces to both humans and agents to perform SPARQL queries.
@@ -31,11 +37,11 @@ WHERE {
 }
 ```
 
-Check the service description of the SPARQL endpoint for agents by executing `curl` in another terminal: `curl http://localhost:9999/blazegraph/namespace/um/sparql`
+Check the service description of the SPARQL endpoint for agents by executing `curl` in another terminal: `curl http://IP:9999/blazegraph/namespace/um/sparql`
 
-## Trifid
+## Pubby
 
-Trifid provides interfaces to both humans and agents to explore RDF data and discover new data through predicates.
+Pubby provides interfaces to both humans and agents to explore RDF data and discover new data through predicates.
 
 In another terminal, go to `LinkedDataServer/trifid` and execute `./server.js --config=../blazegraph-config.json`. Or, if you use Docker:  `docker run -p 3031:8080 -e "SPARQL_ENDPOINT_URL=http://dayhoff.inf.um.es:3030/blazegraph/namespace/um/sparql" -e "DATASET_BASE_URL=https://um.es/" ghcr.io/zazuko/trifid`
 
@@ -54,11 +60,8 @@ Visit http://localhost:8080/dataset/UMGenesDataset to see the metadata (Related 
 
 ## Apache
 
-Apache is used in this case to provide the original CSV file. The predicate for the discovery is `dcat:distribution <http://localhost:8080/csv/genes>`.
+Apache is used in this case to provide the original CSV file. The predicate for the discovery is `dcat:distribution <https://um.es/csv/genes>`.
 
-Restart Apache2 with (Or install if necessary): `service apache2 restart`.
+Restart Apache2 with (Or install if necessary with `sudo apt install apache2`): `service apache2 restart`.
 
-Add a symbolic link to actual CSV file from `www` directory to this repo:
-
-* `cd /var/www/html`
-* `ln -s LinkedDataServer/data/GenesUM.csv GenesUM.csv`
+Copy `GenesUM.csv` to `/var/www/html`: `sudo cp UM-Bioinformatics-MSc-FAIR-data/LinkedDataServer/data/GenesUM.csv /var/www/html/`.
