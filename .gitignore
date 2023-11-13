@@ -1,6 +1,8 @@
 # Blazegraph JNL binary
 *.jnl
 
+# Putty logs
+*.log
 
 
 
