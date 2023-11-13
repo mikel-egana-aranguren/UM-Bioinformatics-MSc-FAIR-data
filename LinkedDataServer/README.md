@@ -11,7 +11,7 @@ The bundle comprises:
 
 ## Dependencies
 
-* Java. It has been tested with `OpenJDK Runtime Environment (build 11.0.20.1+1-post-Ubuntu-0ubuntu122.04)` on Ubuntu 22.04.1 LTS. Install Java with your favourite method.
+* Java. It has been tested with `OpenJDK Runtime Environment (build 11.0.20.1+1-post-Ubuntu-0ubuntu122.04)` on Ubuntu 22.04.1 LTS. Install Java with your favourite method (e.g. `sudo apt install default-jre`).
 
 ## Configuration
 

@@ -4,8 +4,6 @@ Este material es parte del [Máster de Bioinformática de la Universidad de Murc
 
 El material consta de:
 
-* `slides-FAIR`: slides sobre principios FAIR.
-* `slides-Linked-Data`: slides sobre datos enlazados.
+* `slides-FAIR`: slides sobre principios FAIR y su aplicación.
 * `LinkedDataServer`: Servidor Linked Data, incluyendo Triple Store, para "simular" una situación real de publicación de datos FAIR/Linked Data.
 * `papers`: artículos científicos sobre FAIR.
-
