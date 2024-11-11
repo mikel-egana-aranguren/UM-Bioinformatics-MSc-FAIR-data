@@ -5,12 +5,20 @@ services:
       ports:
          - "8080:8080"
       environment:
-         SPARQL_ENDPOINT_URL: "http://sparql_endpoint:7878/query"
-         DATASET_BASE_URL: "http://fair/data/"
+         SPARQL_ENDPOINT_URL: "http://sparql_endpoint:9999/blazegraph/namespace/um/sparql"
+        #  SPARQL_ENDPOINT_URL: "http://sparql_endpoint:7878/query"
+         DATASET_BASE_URL: "https://um.es/data/"
+         #DATASET_BASE_URL: "http://fair/data/"
 
    sparql_endpoint:
-      image: ghcr.io/oxigraph/oxigraph
-      volumes:
-         - ./oxigraph/data:/data
+      image: blazegraph
       ports:
-         - "7878:7878"
+         - "9999:9999"
+    
+
+  #  sparql_endpoint:
+  #     image: ghcr.io/oxigraph/oxigraph
+  #     volumes:
+  #        - ./oxigraph/data:/data
+  #     ports:
+  #        - "7878:7878"
