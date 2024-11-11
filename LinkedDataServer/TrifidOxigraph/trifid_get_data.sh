@@ -1,0 +1,1 @@
+curl -L --header "Accept: text/turtle" http://localhost:8080/amy-farrah-fowler
