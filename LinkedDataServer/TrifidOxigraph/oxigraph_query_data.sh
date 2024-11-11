@@ -1,2 +1,0 @@
-# curl -X POST -H 'Content-Type:application/sparql-query' --data 'SELECT * WHERE { ?s ?p ?o } LIMIT 10' http://localhost:7878/query
-curl -X POST -H 'Content-Type:application/sparql-query' --data 'SELECT * WHERE { GRAPH ?g { ?s ?p ?o } }' http://localhost:7878/query
