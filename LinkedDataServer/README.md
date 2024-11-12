@@ -6,38 +6,44 @@ This is a standalone, hassle-free [Linked Data](https://www.w3.org/standards/sem
 
 The bundle comprises:
 
-* [Blazegraph](https://github.com/blazegraph/database) as Triple Store in `/blazegraph`.
-* [Pubby](https://github.com/cygri/pubby) as frontend for web browsing and content negotiation, i.e. "dereferencing", in `/pubby`.
+* [Blazegraph](https://github.com/blazegraph/database) as Triple Store.
+* [Trifid](https://zazuko.com/products/trifid/) as Linked Data server.
 
 ## Dependencies
 
-* Java. It has been tested with `OpenJDK Runtime Environment (build 11.0.20.1+1-post-Ubuntu-0ubuntu122.04)` on Ubuntu 22.04.1 LTS. Install Java with your favourite method (e.g. `sudo apt install default-jre`).
+You need Docker and docker-compose.
 
 ## Configuration
 
-Blazegraph requires no further configuration.
+The file `TrifidBlazegraph/docker-compose.yml` contains all the configuration (The important variable is `DATASET_BASE_URL`, since it defines the URI mapping from external URIs to URIs from the data stored in Blazegraph):
 
-Pubby:
+```yaml
+version: "3"
+services:
+   linked_data_server:
+      image: ghcr.io/zazuko/trifid
+      ports:
+         - "8080:8080"
+      environment:
+         SPARQL_ENDPOINT_URL: "http://sparql_endpoint:9999/blazegraph/namespace/um/sparql"
+         DATASET_BASE_URL: "http://fair/data/"
 
-* Edit `LinkedDataServer/pubby/webapps/ROOT/WEB-INF/web.xml` so that it points to the config file `blazegraph-config.ttl`:
-
-```xml
-  <context-param>
-    <param-name>config-file</param-name>
-    <param-value>blazegraph-config.ttl</param-value>
-  </context-param>
+   sparql_endpoint:
+      image: blazegraph
+      ports:
+         - "9999:9999"
 ```
 
-* Edit the config file, with special care for:
-  * `conf:webBase <http://IP_NUMBER:3031/>;`
-  * `conf:sparqlEndpoint <http://IP_NUMBER:9999/blazegraph/namespace/um/sparql>;`
-  * `conf:datasetBase <http://fair/data/>;` 
+Unfortunatelly the Blazegraph Docker image needs to be built from scratch (See usage bellow). If you feel like improving this by adding a image to pull, feel free to request a pull at GitHub!
 
 ## Usage
 
-* Execute Blazegraph at `/blazegraph`: `java -server -Xmx4g -jar blazegraph.jar`. To change the port in which Blazegraph will listen, use `java -server -Xmx4g -Djetty.port=8181 -jar blazegraph.jar`.
-* In `http://IP_NUMBER:9999/`, in the `NAMESPACES` tab, create namespace `um` and activate (click in "use").
-* Load data from file `data/update.ttl` into Blazegraph at `http://IP_NUMBER:9999/`, in the `UPDATE` tab.
-* Start Pubby at `LinkedDataServer/pubby/`: `java -jar start.jar jetty.port=3031`.
-* To test content negotiation, try `curl -L --header "Accept: text/turtle" http://IP_NUMBER:3031/mikel`. Some data should be returned.
-* To test the web frotend go to `http://IP_NUMBER:3031/mikel` with the browser and the following should appear:
+* In `TrifidBlazegraph/blazegraph`, build image with `docker build -t="blazegraph" .`.
+* In `TrifidBlazegraph`, `docker-compose up -d`.
+* At `http://localhost:9999/`, in the `NAMESPACES` tab, create namespace `um` (quads) and activate (click in "use").
+* Load data from file `data/update.ttl` into Blazegraph at `http://localhost:9999/`, in the `UPDATE` tab.
+* To test content negotiation, try `curl -L --header "Accept: text/turtle" http://localhost:8080/amy-farrah-fowler`. Some data should be returned: `<http://localhost:8080/amy-farrah-fowler> <http://schema.org/knows> <http://localhost:8080/mikel> .`.
+* To test the web frotend go to `http://localhost:8080/amy-farrah-fowler` with the browser and the following should appear:
+
+![Trifid frontend for entity Amy Farrah Fowler](TrifidBlazegraph/trifid.png)
+
