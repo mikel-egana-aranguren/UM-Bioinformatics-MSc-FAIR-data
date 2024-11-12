@@ -41,7 +41,7 @@ Unfortunatelly the Blazegraph Docker image needs to be built from scratch (See u
 * In `TrifidBlazegraph/blazegraph`, build image with `docker build -t="blazegraph" .`.
 * In `TrifidBlazegraph`, `docker-compose up -d`.
 * At `http://localhost:9999/`, in the `NAMESPACES` tab, create namespace `um` (quads) and activate (click in "use").
-* Load data from file `data/update.ttl` into Blazegraph at `http://localhost:9999/`, in the `UPDATE` tab
+* Load data from file `data/update.ttl` into Blazegraph at `http://localhost:9999/`, in the `UPDATE` tab.
 * To test content negotiation, try `curl -L --header "Accept: text/turtle" http://localhost:8080/amy-farrah-fowler`. Some data should be returned: `<http://localhost:8080/amy-farrah-fowler> <http://schema.org/knows> <http://localhost:8080/mikel> .`.
 * To test the web frotend go to `http://localhost:8080/amy-farrah-fowler` with the browser and the following should appear:
 
