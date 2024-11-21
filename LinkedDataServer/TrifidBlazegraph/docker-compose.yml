@@ -13,3 +13,7 @@ services:
       image: blazegraph
       ports:
          - "9999:9999"
+
+
+
+         

@@ -630,8 +630,8 @@
     
     <section class="slide">
         <h2>Publicación</h2>
-        <p>Datos: CSV (Apache), RDF (Blazegraph/Pubby)</p>
-        <p>Metadatos: RDF (Blazegraph/Pubby)</p>
+        <p>Datos: CSV (Apache), RDF (Blazegraph/Trifid)</p>
+        <p>Metadatos: RDF (Blazegraph/Trifid)</p>
         
     </section>
 
@@ -642,8 +642,9 @@
     </section>
 
     <section class="slide">
-        <h2>Blazegraph</h2>
-        <p>java -server -Xmx4g -jar blazegraph.jar</p>
+        <h2>Blazegraph, Trifid</h2>
+        <p>LinkedDataServer/TrifidBlazegraph: $ docker-compose up -d</p>
+        <p><img src="pictures/docker-compose.png" alt="Docker compose" width="90%"></p>
     </section>
 
     <section class="slide">
@@ -653,15 +654,15 @@
     </section>
 
     <section class="slide">
-        <h2>Pubby</h2>
-        <p>Configurar Pubby para que haga consultas SPARQL contra http://IP_NUMBER:9999/blazegraph/namespace/um/sparql</p>
+        <h2>Trifid</h2>
+        <p>Configurar Trifid para que haga consultas SPARQL contra http://IP_NUMBER:9999/blazegraph/namespace/um/sparql</p>
         <p><a href="http://www.w3.org/TR/2013/REC-sparql11-service-description-20130321">SPARQL Service Description</a></p>
         <p><a href="https://www.w3.org/TR/sparql11-protocol/">SPARQL Protocol</a></p>
         <p>Configuración: <a href="../LinkedDataServer/pubby/webapps/ROOT/WEB-INF/blazegraph-config.ttl">blazegraph-config.ttl</a></p>
     </section>
 
     <section class="slide">
-        <h2>Pubby</h2>
+        <h2>Trifid</h2>
         <p>URIs:
             <ul>
                 <li>um.es</li>
