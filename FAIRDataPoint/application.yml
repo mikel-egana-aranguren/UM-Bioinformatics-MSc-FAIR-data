@@ -1,0 +1,6 @@
+repository:
+   type: 2
+   native:
+      dir: /tmp/fdp-store
+instance:
+   clientUrl: http://localhost:81

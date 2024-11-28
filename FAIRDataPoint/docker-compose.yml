@@ -1,0 +1,19 @@
+version: '3'
+services:
+   fdp:
+      image: fairdata/fairdatapoint:1.16.2
+      volumes:
+         - ./application.yml:/fdp/application.yml:ro
+         - ./fdp-store:/tmp/fdp-store
+   fdp-client:
+      image: fairdata/fairdatapoint-client:1.16.2
+      ports:
+         - 81:80
+      environment:
+         - FDP_HOST=fdp
+   mongo:
+      image: mongo:4.0.12
+      ports:
+         - 27017:27017
+      volumes:
+         - ./mongo/data:/data/db
