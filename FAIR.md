@@ -1,11 +1,5 @@
 # Procedure to publish FAIR Data
 
-## Apache
-
-Install apache with `sudo apt install apache2`.
-
-Copy `GenesUM.csv` to `/var/www/html`: `sudo cp UM-Bioinformatics-MSc-FAIR-data/LinkedDataServer/data/GenesUM.csv /var/www/html/`.
-
 ## Blazegraph and Trifid
 
 Change the following parameter at `TrifidBlazegraph/docker-compose.yml`:
@@ -45,7 +39,7 @@ WHERE {
 
 Check the service description of the SPARQL endpoint for agents by executing `curl` in another terminal: `curl http://IP:9999/blazegraph/namespace/um/sparql`
 
-Visit http://localhost:8080/LDD012546 to make sure it renders data, originating from the following query executed against Blazegraph (Pubby does the URI mapping):
+Visit http://localhost:8081/LDD012546 to make sure it renders data, originating from the following query executed against Blazegraph (Trifid does the URI mapping):
 
 ```sparql
 DESCRIBE <https://um.es/data/LDD012546>
@@ -53,14 +47,14 @@ DESCRIBE <https://um.es/data/LDD012546>
 
 To check content negotiation by an agent:
 
-* `curl -L -H "Accept: text/turtle" http://localhost:8080/LDD012546`
-* `curl -L -H "Accept: application/ld+json" http://localhost:8080/LDD012546`
+* `curl -L -H "Accept: text/turtle" http://localhost:8081/LDD012546`
+* `curl -L -H "Accept: application/ld+json" http://localhost:8081/LDD012546`
 
-Visit http://localhost:8080/UMGenesDataset to see the metadata (Related to the data with a Named Graph). Simulate to be an agent: `curl -H "Accept: application/ld+json" http://localhost:8080/UMGenesDataset`.
+Visit http://localhost:8081/UMGenesDataset to see the metadata (Related to the data with a Named Graph). Simulate to be an agent: `curl -H "Accept: application/ld+json" http://localhost:8081/UMGenesDataset`.
 
 ## Apache
 
-Apache is used in this case to provide the original CSV file. The predicate for the discovery is `dcat:distribution <https://um.es/data/csvgenes>`.
+Apache is used in this case to provide the original CSV file. The predicates for the discovery are `<http://localhost:8081/UMGenesDataset> dcat:distribution <https://um.es/data/csvgenes>` and then `<https://um.es/data/csvgenes> dcat:downloadURL <http://localhost/GenesUM.csv>`.
 
 Restart Apache2 with (Or install if necessary with `sudo apt install apache2`): `service apache2 restart`.
 
